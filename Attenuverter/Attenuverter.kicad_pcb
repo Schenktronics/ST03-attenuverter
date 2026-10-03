@@ -10654,7 +10654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 0 -5.28 90)
 			(layer "B.Fab")
 			(uuid "3492a91d-adbe-491b-bdda-52ffeac5108e")

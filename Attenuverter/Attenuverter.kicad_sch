@@ -11,7 +11,7 @@
 		(company "Nathan Schenk")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL084"
+	(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
 			)
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL084"
+			(property "Value" "TL074"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 				(at 1.27 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -107,7 +107,7 @@
 					)
 				)
 			)
-			(symbol "TL084_1_1"
+			(symbol "TL074_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -175,7 +175,7 @@
 					)
 				)
 			)
-			(symbol "TL084_2_1"
+			(symbol "TL074_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(symbol "TL084_3_1"
+			(symbol "TL074_3_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -311,7 +311,7 @@
 					)
 				)
 			)
-			(symbol "TL084_4_1"
+			(symbol "TL074_4_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -379,7 +379,7 @@
 					)
 				)
 			)
-			(symbol "TL084_5_1"
+			(symbol "TL074_5_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -4576,7 +4576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 218.44 101.6 0)
 		(unit 5)
 		(body_style 1)
@@ -4597,7 +4597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 217.3732 102.743 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 219.71 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4692,7 +4692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 85.09 41.91 0)
 		(mirror x)
 		(unit 1)
@@ -4713,7 +4713,7 @@
 				)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 87.63 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4734,7 +4734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 86.36 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6383,7 +6383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 85.09 80.01 0)
 		(mirror x)
 		(unit 2)
@@ -6404,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 87.63 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 86.36 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7296,7 +7296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 85.09 118.11 0)
 		(mirror x)
 		(unit 3)
@@ -7317,7 +7317,7 @@
 				)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 87.63 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 86.36 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8209,7 +8209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 85.09 156.21 0)
 		(mirror x)
 		(unit 4)
@@ -8230,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Value" "TL084"
+		(property "Value" "TL074"
 			(at 87.63 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8251,7 +8251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 86.36 161.29 0)
 			(hide yes)
 			(show_name no)
