@@ -19,12 +19,12 @@ Check your kit against this list before you start (full details in the [BOM](BOM
 - [ ] 1 × TL074 quad op-amp (U1, 14 pins)
 - [ ] 1 × LM4040 5 V reference (U2, 3 pins)
 - [ ] 16 × 100 kΩ resistors
-- [ ] 4 × 100 Ω resistors
-- [ ] 1 × 1 kΩ resistor
+- [ ] 13 × 1 kΩ resistors
 - [ ] 4 × 10 pF capacitors
 - [ ] 3 × 100 nF capacitors
 - [ ] 2 × 10 µF capacitors
 - [ ] 2 × diodes (D1, D2)
+- [ ] 9 × 1N4148 diodes (D3–D11)
 - [ ] 2 × resettable fuses (F1, F2)
 
 **Every kit**, loose:
@@ -75,8 +75,7 @@ Work in this order, from the most difficult part to the easiest:
    | Value | Where |
    |-------|-------|
    | 100 kΩ (16) | R1, R2, R4, R5, R6, R7, R9, R10, R12, R13, R15, R16, R17, R18, R20, R21 |
-   | 100 Ω (4) | R3, R8, R14, R19 |
-   | 1 kΩ (1) | R11 |
+   | 1 kΩ (13) | R3, R8, R11, R14, R19, R22, R23, R24, R25, R26, R27, R28, R29 |
 
 4. **Capacitors**, one value at a time. Open one strip at a time so you don't mix them up.
 
@@ -87,9 +86,10 @@ Work in this order, from the most difficult part to the easiest:
    | 10 µF (2) | C5, C8 |
 
 5. **D1 and D2.** The stripe (cathode) end goes on the red pad in the drawing: the end of the outline with the line across it. These diodes protect the module if the power cable goes in backwards, so a reversed diode shorts the power rail.
-6. **F1 and F2**, the resettable fuses. They work either way round.
+6. **D3–D11**, the nine 1N4148 input clamp diodes. The stripe end goes on the red pad, as for D1 and D2. The stripe goes on the +12 V pad for D5, D6, D8 and D10, and on the input-side pad for D4, D7, D9 and D11. A reversed clamp lets its input drift to about +11 V or −11 V, so check each one against the drawing before you solder it.
+7. **F1 and F2**, the resettable fuses. They work either way round.
 
-<img src="images/assembly-1-smd.svg" alt="Back of the PCB with every surface-mount part labelled. U1's pin 1 pad and the cathode pads of D1 and D2 are red." width="640">
+<img src="images/assembly-1-smd.svg" alt="Back of the PCB with every surface-mount part labelled. U1's pin 1 pad and the cathode pads of D1 to D11 are red." width="640">
 
 Check every joint with a magnifier. Each one should be a smooth fillet from the pad up the end of the part, with no bridges between U1's pins.
 
@@ -113,12 +113,30 @@ Use diode test mode, not resistance mode. Most meters test resistance at too low
 | Red probe on pin 3 (ground), black on pin 1 (−12 V) | OL, or a high reading. It may count up for a moment. |
 | Red probe on pin 3 (ground), black on pin 9 (+12 V) | About 0.5–0.7 V: D1 conducting. |
 | Red probe on pin 1 (−12 V), black on pin 3 (ground) | About 0.5–0.7 V: D2 conducting. |
+| Red probe on pin 9 (+12 V), black on pin 1 (−12 V) | OL. A reading of about 1–1.5 V means two clamp diodes on one channel are both reversed and shorting the rails. |
 
 What a wrong reading means:
 
 - **Near 0 V** (many meters also beep) in any test: a short. Look for a solder bridge on U1 or on the power header.
 - **About 0.5–0.7 V in the first or second test:** D1 (first test) or D2 (second test) is fitted backwards. Fitted like that, it would short the rail as soon as you power on.
 - **OL in the third or fourth test:** D1 or D2 is missing, fitted backwards, or not soldered.
+- **About 1–1.5 V in the fifth test:** both clamp diodes of one channel are fitted backwards. That shorts the power rails through them. Check the pair in the next table.
+
+The input clamp diodes (D3–D11) are on the back of the board, so you can test each one on its own two pads, before the pots and jacks go in. Use the same method: red probe on the plain end, black on the stripe end.
+
+| Diode | Red probe on | Black probe on | Expected |
+|-------|--------------|----------------|----------|
+| D3 | GND pad | +5 V pad | About 0.5–0.7 V |
+| D4 | −12 V pad | input-side pad | About 0.5–0.7 V |
+| D5 | input-side pad | +12 V pad | About 0.5–0.7 V |
+| D6 | input-side pad | +12 V pad | About 0.5–0.7 V |
+| D7 | −12 V pad | input-side pad | About 0.5–0.7 V |
+| D8 | input-side pad | +12 V pad | About 0.5–0.7 V |
+| D9 | −12 V pad | input-side pad | About 0.5–0.7 V |
+| D10 | input-side pad | +12 V pad | About 0.5–0.7 V |
+| D11 | −12 V pad | input-side pad | About 0.5–0.7 V |
+
+If a diode in this table reads OL, it's fitted backwards, missing, or not soldered.
 
 ## Step 4 — Fit the pots and jacks
 
@@ -185,7 +203,8 @@ Install the module in your case with the included power cable and four M3 rack s
 
 | Symptom | Likely cause |
 |---------|--------------|
-| Nothing works, and the power supply struggles, a fuse trips or U1 gets hot | A short on a power rail: a solder bridge on U1, U1 fitted the wrong way round (check its pin 1), a diode fitted backwards, or the power cable plugged in backwards. |
+| Nothing works, and the power supply struggles, a fuse trips or U1 gets hot | A short on a power rail: a solder bridge on U1, U1 fitted the wrong way round (check its pin 1), a diode fitted backwards (D1–D11), or the power cable plugged in backwards. A rail test of about 1–1.5 V points to a reversed clamp pair. |
+| An unplugged input reads about +11 V, or about −11 V, instead of +5 V | One clamp diode on that input is fitted backwards. For channel 1 (RV1, jack J1) the +12 V diode is D5 and the −12 V diode is D4. For channel 2 (RV2, J3): D6 and D7. Channel 3 (RV3, J5): D8 and D9. Channel 4 (RV4, J8): D10 and D11. About +11 V means the +12 V diode is reversed, and about −11 V means the −12 V diode is. |
 | No channel works, but nothing gets hot | The power header isn't soldered well. |
 | Empty inputs give 0 V at every knob position | U2 or R11 isn't soldered well, or U2 is missing: the +5 V normal isn't there. |
 | One channel is dead | A bad joint on that channel's jacks, pot, or its resistors and capacitor. Check the pins of U1 for that channel too. |

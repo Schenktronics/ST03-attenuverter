@@ -13,12 +13,12 @@ The **Easy Build Kit** includes a PCB with every surface-mount part below alread
 | 1 | U1 | Quad JFET op-amp, SOIC-14 | Texas Instruments TL074CDR, or equivalent | [Datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf). The schematic says TL084; the TL084 and TL074 have the same pinout, and either one works. |
 | 1 | U2 | 5.0 V shunt voltage reference, SOT-23-3 | Microchip LM4040DYM3-5.0-TR, or equivalent | The schematic uses TI's LM4040 in the DBZ package: [datasheet](https://www.ti.com/lit/ds/symlink/lm4040.pdf). An equivalent must have the cathode on pin 1 and the anode on pin 2. Sets the +5 V that unplugged inputs receive. |
 | 16 | R1, R2, R4, R5, R6, R7, R9, R10, R12, R13, R15, R16, R17, R18, R20, R21 | Resistor, 100 kΩ, 1%, 0805 | Yageo RC0805FR-07100KL, or equivalent | |
-| 4 | R3, R8, R14, R19 | Resistor, 100 Ω, 1%, 0805 | Yageo RC0805FR-07100RL, or equivalent | Output resistors, one per channel |
-| 1 | R11 | Resistor, 1 kΩ, 1%, 0805 | Yageo RC0805FR-071KL, or equivalent | Feeds the 5 V reference |
+| 13 | R3, R8, R11, R14, R19, R22–R29 | Resistor, 1 kΩ, 1%, 0805 | Yageo RC0805FR-071KL, or equivalent | R3, R8, R14 and R19 are the output resistors, one per channel. R11 feeds the 5 V reference. R22–R29 are part of the input protection. |
 | 4 | C1, C2, C3, C7 | Capacitor, 10 pF, 50 V, C0G/NP0, 0805 | Yageo CC0805JRNPO9BN100, or equivalent | |
 | 3 | C4, C6, C9 | Capacitor, 100 nF, 25 V, X7R, 0805 | AVX 08053C104KAT2A, or equivalent | |
 | 2 | C5, C8 | Capacitor, 10 µF, 25 V, X5R, 0805 | Taiyo Yuden TMK212BBJ106KG-T, or equivalent | |
 | 2 | D1, D2 | Diode, 1 A, 300 V, SMA | ON Semiconductor MRA4003T3G, or equivalent | Reverse-power protection. The cathode (stripe) end matters. |
+| 9 | D3–D11 | Diode, 1N4148, SOD-323, 75 V, 150 mA | Diodes Incorporated 1N4148WS-7-F, or equivalent | [Datasheet](https://datasheet.octopart.com/1N4148WS-7-F-Diodes-Inc.-datasheet-7284054.pdf). Input protection. The cathode (stripe) end matters. |
 | 2 | F1, F2 | Resettable fuse (PTC), 200 mA hold, 30 V, 1206 | Bel Fuse 0ZCJ0020FF2E, or equivalent | Either way round |
 
 ## Through-hole parts

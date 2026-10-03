@@ -26,54 +26,105 @@ TINT = "#fbe3e2"
 
 # ---------------------------------------------------------------- parsing
 
+def read_sexpr(text):
+    """Parse a KiCad S-expression file into nested lists of strings."""
+    tokens = re.findall(r'"(?:[^"\\]|\\.)*"|[()]|[^\s()"]+', text)
+    stack, root = [], []
+    cur = root
+    for tok in tokens:
+        if tok == "(":
+            new = []
+            cur.append(new)
+            stack.append(cur)
+            cur = new
+        elif tok == ")":
+            cur = stack.pop()
+        else:
+            cur.append(tok[1:-1] if tok.startswith('"') else tok)
+    return root[0]
+
+
+def kids(node, head):
+    return [c for c in node[1:] if isinstance(c, list) and c and c[0] == head]
+
+
+def kid(node, head):
+    found = kids(node, head)
+    return found[0] if found else None
+
+
+def nums(node):
+    return [float(v) for v in node[1:] if re.fullmatch(r"-?[\d.]+", v)]
+
+
 def parse(path):
-    s = path.read_text()
-    edges = [tuple(map(float, m)) for m in re.findall(
-        r"\(gr_line \(start ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(layer Edge\.Cuts\)", s)]
+    tree = read_sexpr(path.read_text())
+    edges = []
+    for g in kids(tree, "gr_line"):
+        if kid(g, "layer")[1] == "Edge.Cuts":
+            (x1, y1), (x2, y2) = nums(kid(g, "start")), nums(kid(g, "end"))
+            edges.append((x1, y1, x2, y2))
     xs = [v for e in edges for v in (e[0], e[2])]
     ys = [v for e in edges for v in (e[1], e[3])]
     outline = (min(xs), min(ys), max(xs), max(ys))
 
     parts = []
-    for block in re.findall(r"\n  \(module .*?\n  \)", s, re.S):
-        side = "B" if re.match(r"\n  \(module \S+ \(layer B\.Cu\)", block) else "F"
-        at = re.search(r"\n    \(at ([\d.]+) ([\d.]+)(?: ([\d.-]+))?\)", block)
-        mx, my = float(at[1]), float(at[2])
-        a = math.radians(float(at[3] or 0))
+    for fp in kids(tree, "footprint"):
+        side = "B" if kid(fp, "layer")[1].startswith("B.") else "F"
+        at = nums(kid(fp, "at"))
+        mx, my = at[0], at[1]
+        fp_rot = at[2] if len(at) > 2 else 0.0
+        a = math.radians(fp_rot)
 
         def place(x, y, mx=mx, my=my, a=a):
             # KiCad rotates footprints counter-clockwise on a y-down board.
-            # Footprints on the back are stored already mirrored.
             return (mx + x * math.cos(a) + y * math.sin(a), my - x * math.sin(a) + y * math.cos(a))
 
-        ref = re.search(r"fp_text reference (\S+) \(at ([\d.-]+) ([\d.-]+)", block)
-        part = dict(ref=ref[1], side=side, at=(mx, my), label_at=place(float(ref[2]), float(ref[3])),
+        ref_prop = next(p for p in kids(fp, "property") if p[1] == "Reference")
+        label = nums(kid(ref_prop, "at"))
+        ref = ref_prop[2]
+        part = dict(ref=ref, side=side, at=(mx, my), label_at=(label[0], label[1]),
                     lines=[], circles=[], pads=[], place=place)
-        silk = f"{side}\\.SilkS"
-        for m in re.findall(rf"\(fp_line \(start ([\d.-]+) ([\d.-]+)\) \(end ([\d.-]+) ([\d.-]+)\) \(layer {silk}\)", block):
-            x1, y1, x2, y2 = map(float, m)
-            part["lines"].append((*place(x1, y1), *place(x2, y2)))
-        for m in re.findall(rf"\(fp_circle \(center ([\d.-]+) ([\d.-]+)\) \(end ([\d.-]+) ([\d.-]+)\) \(layer {silk}\)", block):
-            cx, cy, ex, ey = map(float, m)
-            part["circles"].append((*place(cx, cy), math.hypot(ex - cx, ey - cy)))
-        for m in re.finditer(r"\(pad (\S+) (\S+) (\S+) \(at ([\d.-]+) ([\d.-]+)(?: ([\d.-]+))?\) \(size ([\d.]+) ([\d.]+)\)"
-                             r"(?: \(drill (?:oval )?([\d.]+)(?: ([\d.]+))?\))?", block):
-            name, kind, shape = m[1].strip('"'), m[2], m[3]
-            px, py = place(float(m[4]), float(m[5]))
-            w, h = float(m[7]), float(m[8])
-            dw = float(m[9] or 0)
-            dh = float(m[10] or m[9] or 0)
-            if m[6] and float(m[6]) % 180 == 90:
-                # Pad angles in KiCad 5 are absolute.
+        silk = f"{side}.SilkS"
+        for line in kids(fp, "fp_line"):
+            if kid(line, "layer")[1] == silk:
+                x1, y1 = nums(kid(line, "start"))
+                x2, y2 = nums(kid(line, "end"))
+                part["lines"].append((*place(x1, y1), *place(x2, y2)))
+        for circ in kids(fp, "fp_circle"):
+            if kid(circ, "layer")[1] == silk:
+                cx, cy = nums(kid(circ, "center"))
+                ex, ey = nums(kid(circ, "end"))
+                part["circles"].append((*place(cx, cy), math.hypot(ex - cx, ey - cy)))
+        for pad in kids(fp, "pad"):
+            name, kind, shape = pad[1], pad[2], pad[3]
+            pa = nums(kid(pad, "at"))
+            px, py = place(pa[0], pa[1])
+            pad_rot = pa[2] if len(pa) > 2 else 0.0
+            w, h = nums(kid(pad, "size"))
+            dw = dh = 0.0
+            drill = kid(pad, "drill")
+            if drill is not None:
+                if drill[1] == "oval":
+                    dw, dh = drill[2], drill[3]
+                else:
+                    dw = dh = drill[1]
+                dw, dh = float(dw), float(dh)
+            # Pad angles are relative to the footprint; swap width and height when the pad is turned 90°.
+            if (pad_rot + fp_rot) % 180 == 90:
                 w, h, dw, dh = h, w, dh, dw
             part["pads"].append(dict(name=name, kind=kind, shape=shape, x=px, y=py, w=w, h=h, dw=dw, dh=dh))
         parts.append(part)
 
-    # Board-level text and lines on the back silkscreen ("Red Stripe", "-12v +12v").
-    back = dict(lines=[tuple(map(float, m)) for m in re.findall(
-        r"\(gr_line \(start ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(layer B\.SilkS\)", s)], texts=[])
-    for m in re.finditer(r'\(gr_text ("[^"]*"|\S+) \(at ([\d.]+) ([\d.]+)(?: ([\d.-]+))?\) \(layer B\.SilkS\)', s):
-        back["texts"].append((m[1].strip('"').replace("\\n", " "), float(m[2]), float(m[3]), float(m[4] or 0)))
+    # Board-level lines and text on the back silkscreen ("Red Stripe", "-12v +12v").
+    back = dict(lines=[], texts=[])
+    for g in kids(tree, "gr_line"):
+        if kid(g, "layer")[1] == "B.SilkS":
+            back["lines"].append((*nums(kid(g, "start")), *nums(kid(g, "end"))))
+    for t in kids(tree, "gr_text"):
+        if kid(t, "layer")[1] == "B.SilkS":
+            at = nums(kid(t, "at"))
+            back["texts"].append((t[1].replace("\\n", " "), at[0], at[1], at[2] if len(at) > 2 else 0.0))
     return outline, parts, back
 
 
@@ -247,18 +298,16 @@ def fig_smd(outline, parts, back):
         else:
             body += v.pads(p, fill="#fff", stroke=FAINT)
     # Parts that only fit one way round.
-    u1, d1, d2 = by_ref(parts, "U1"), by_ref(parts, "D1"), by_ref(parts, "D2")
-    for part in (u1, d1, d2):
+    u1 = by_ref(parts, "U1")
+    diodes = [by_ref(parts, f"D{i}") for i in range(1, 12)]
+    for part in [u1] + diodes:
         body += v.pad(pad_of(part, "1"), fill=RED, stroke=RED)
     row1, row2 = 8 + h + 7, 8 + h + 11
     x, y = v.pt(pad_of(u1, "1")["x"], pad_of(u1, "1")["y"])
     body += leader(x, y, x, row1)
     body.append(text(x + 1, row1, "U1: the pin 1 dot goes on the red pad", 2.2, "bold", color=RED))
-    xs = [v.pt(pad_of(d, "1")["x"], pad_of(d, "1")["y"]) for d in (d1, d2)]
-    lx = min(x for x, _ in xs) - 3
-    for x, y in xs:
-        body += leader(x, y, lx, row2)
-    body.append(text(lx + 1, row2, "D1, D2: the stripe (cathode) goes on the red pad", 2.2, "bold", color=RED))
+    # Eleven diodes are too many for leader lines, so their red pads are labelled once.
+    body.append(text(0, row2, "D1–D11: the stripe (cathode) goes on the red pad", 2.2, "bold", color=RED))
     body += end_labels(v, 8 + h + 2.2)
     return svg((-3, -3, 106, h + 25), body, "Step 1: surface-mount parts")
 
