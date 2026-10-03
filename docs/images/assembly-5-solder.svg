@@ -4,212 +4,246 @@
 <text x='0.00' y='2.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='3' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Back (surface-mount side)</text>
 <rect x='0' y='8' width='100.0' height='30.0' rx='0.6' fill='#f1f1f1' stroke='#1a1a1a' stroke-width='0.35'/>
 <line x1='21.500' y1='23.500' x2='14.250' y2='23.500' stroke='#c8c8c8' stroke-width='0.5'/>
+<text x='78.25' y='21.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 78.25 21.50)'>Attenuverter v1.0</text>
+<text x='80.75' y='15.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 80.75 15.00)'>schenktronics.com</text>
 <text x='19.50' y='23.75' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 19.50 23.75)'>-12v</text>
 <text x='19.50' y='13.25' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 19.50 13.25)'>+12v</text>
 <text x='9.50' y='23.25' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-360 9.50 23.25)'>Red Stripe</text>
-<text x='80.75' y='15.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 80.75 15.00)'>schenktronics.com</text>
-<text x='78.25' y='21.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='1.4' fill='#c8c8c8' text-anchor='middle' dominant-baseline='central' transform='rotate(-270 78.25 21.50)'>Attenuverter v1.0</text>
-<circle cx='96.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='96.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='96.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='96.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='96.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='96.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='89.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='88.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='89.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='88.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='18.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='18.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='18.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='18.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='18.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='18.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='11.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='10.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='11.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='10.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='49.500' y='9.875' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='52.000' y='9.875' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.750' y='24.125' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='52.250' y='24.125' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='52.250' y='26.125' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.750' y='26.125' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='77.375' y='27.250' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='77.375' y='29.750' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='31.875' y='12.750' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='31.875' y='10.250' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='47.375' y='16.250' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='47.375' y='18.750' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.250' y='9.875' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='54.750' y='9.875' width='1.5' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='31.875' y='18.750' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='31.875' y='21.250' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.375' y='19.000' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.375' y='16.500' width='1.25' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.100' y='34.250' width='1.8' height='3.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.100' y='29.250' width='1.8' height='3.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='21.100' y='34.250' width='1.8' height='3.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='21.100' y='29.250' width='1.8' height='3.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='28.985' y='8.175' width='2.03' height='2.65' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='28.985' y='12.355' width='2.03' height='2.65' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='28.985' y='16.675' width='2.03' height='2.65' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='28.985' y='20.855' width='2.03' height='2.65' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='3.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='3.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='3.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='4.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='4.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='3.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='3.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='15.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='15.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='15.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='16.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='16.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='15.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='15.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='29.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='29.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='29.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='30.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='30.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='29.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='29.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
 <rect x='41.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='41.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='41.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='42.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='42.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='42.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='41.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='41.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='55.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='55.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='55.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='56.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='56.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='55.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='55.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='42.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='42.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='42.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='42.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='3.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
+<rect x='4.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='4.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='4.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='4.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='4.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='4.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
 <rect x='67.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='67.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='67.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='68.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='68.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='68.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='67.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='67.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='81.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='81.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='81.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='82.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='82.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='81.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='81.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='68.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='68.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='68.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='68.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='29.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
+<rect x='30.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='30.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='30.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='30.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='30.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='30.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
 <rect x='93.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
-<rect x='93.350' y='27.350' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='93.750' y='27.725' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='94.035' y='24.085' width='1.93' height='1.83' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='94.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='94.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='93.350' y='35.650' width='3.3' height='1.5' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='93.750' y='36.025' width='2.5' height='0.75' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='47.350' y='11.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='47.350' y='14.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='7.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='7.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='12.350' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='12.350' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='14.850' y='15.750' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='14.850' y='18.450' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='14.850' y='10.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='14.850' y='13.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.550' y='22.100' width='1.5' height='1.3' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='52.250' y='22.100' width='1.5' height='1.3' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='33.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='33.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='38.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='38.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='40.850' y='15.750' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='40.850' y='18.450' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='40.850' y='10.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='40.850' y='13.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='75.350' y='25.000' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='75.350' y='22.300' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.250' y='22.100' width='1.5' height='1.3' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='54.550' y='22.100' width='1.5' height='1.3' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='59.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='59.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='64.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='64.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='66.850' y='15.750' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='66.850' y='18.450' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='66.850' y='10.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='66.850' y='13.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.350' y='11.750' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='57.350' y='14.450' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='85.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='85.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='90.850' y='35.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='90.850' y='32.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='92.850' y='15.750' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='92.850' y='18.450' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='92.850' y='10.550' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='92.850' y='13.250' width='1.3' height='1.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='12.830' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='14.100' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='15.370' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='16.640' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='17.910' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='19.180' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='49.600' y='20.450' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='20.450' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='19.180' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='17.910' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='16.640' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='15.370' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='14.100' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='55.000' y='12.830' width='1.5' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='75.600' y='27.300' width='0.8' height='0.9' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='73.700' y='27.300' width='0.8' height='0.9' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='74.650' y='29.300' width='0.8' height='0.9' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<circle cx='44.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='44.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='44.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='44.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='44.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='44.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='94.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='94.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='94.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='94.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='81.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
+<rect x='82.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='82.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='82.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='82.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='82.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='82.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='55.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
+<rect x='56.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='56.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='56.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='56.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='56.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='56.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
 <circle cx='37.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='36.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
 <circle cx='37.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='36.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='70.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='70.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='70.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='70.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<circle cx='70.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
-<rect x='70.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='44.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='44.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='44.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='44.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='44.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='44.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
 <circle cx='63.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='62.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
 <circle cx='63.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
 <rect x='62.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='22.110' y='12.490' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='22.460' y='12.840' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='24.650' y='12.490' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.000' y='12.840' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='22.110' y='15.030' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='22.460' y='15.380' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='24.650' y='15.030' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.000' y='15.380' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='22.110' y='17.570' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='22.460' y='17.920' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='24.650' y='17.570' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.000' y='17.920' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='22.110' y='20.110' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='22.460' y='20.460' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='24.650' y='20.110' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='25.000' y='20.460' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
-<rect x='22.110' y='22.650' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
-<rect x='22.460' y='23.000' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='70.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='70.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='70.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='70.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='70.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='70.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='89.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='88.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='89.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='88.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='96.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='96.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='96.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='96.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='96.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='96.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='11.000' cy='10.500' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='10.000' y='9.500' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='11.000' cy='20.000' r='2.0' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='10.000' y='19.000' width='2.0' height='2.0' rx='1.0' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='18.500' cy='17.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='18.000' y='17.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='18.500' cy='15.250' r='0.9' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='18.000' y='14.750' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<circle cx='18.500' cy='12.750' r='0.9' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='18.000' y='12.250' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='15.500' y='29.977' width='3.0' height='3.0' rx='1.5' fill='#fff' stroke='#888' stroke-width='0.15'/>
+<rect x='16.085' y='24.035' width='1.83' height='1.93' rx='0.15' fill='#d9302c' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='16.390' y='24.390' width='1.22' height='1.22' rx='0.61' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='16.250' y='34.750' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='16.625' y='35.150' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='16.250' y='26.450' width='1.5' height='3.3' rx='0.75' fill='#fff' stroke='#d9302c' stroke-width='0.15'/>
+<rect x='16.625' y='26.850' width='0.75' height='2.5' rx='0.375' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='50.075' y='24.250' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='51.975' y='24.250' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='51.975' y='26.500' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.075' y='26.500' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='77.275' y='27.800' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='77.275' y='29.700' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='49.825' y='10.000' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='51.725' y='10.000' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='31.775' y='19.300' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='31.775' y='21.200' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='47.275' y='16.800' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='47.275' y='18.700' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='56.975' y='10.000' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.075' y='10.000' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='31.775' y='12.700' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='31.775' y='10.800' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.100' y='34.250' width='1.8' height='2.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.100' y='30.250' width='1.8' height='2.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='75.700' y='27.075' width='0.6' height='1.475' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='73.800' y='27.075' width='0.6' height='1.475' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='74.750' y='28.950' width='0.6' height='1.475' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='92.800' y='11.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='92.800' y='13.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='90.500' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='90.500' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='57.300' y='12.425' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='57.300' y='14.250' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='66.800' y='16.425' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='66.800' y='18.250' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='36.500' y='33.288' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='36.500' y='35.112' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='64.700' y='35.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='64.700' y='33.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='62.700' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='62.700' y='35.088' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='40.800' y='11.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='40.800' y='13.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='14.800' y='11.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='14.800' y='13.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='29.125' y='18.065' width='1.75' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='29.125' y='20.865' width='1.75' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='40.800' y='16.425' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='40.800' y='18.250' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='88.500' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='88.500' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='21.100' y='34.250' width='1.8' height='2.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='21.100' y='30.250' width='1.8' height='2.5' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='75.300' y='24.800' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='75.300' y='22.975' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='66.800' y='11.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='66.800' y='13.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.138' y='22.238' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='51.962' y='22.238' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='10.300' y='33.288' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='10.300' y='35.112' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='12.300' y='35.112' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='12.300' y='33.288' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='92.800' y='16.425' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='92.800' y='18.250' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='56.862' y='22.238' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.038' y='22.238' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
 <rect x='24.650' y='22.650' width='1.7' height='1.7' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
 <rect x='25.000' y='23.000' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='22.110' y='22.650' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='22.460' y='23.000' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='24.650' y='20.110' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.000' y='20.460' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='22.110' y='20.110' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='22.460' y='20.460' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='24.650' y='17.570' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.000' y='17.920' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='22.110' y='17.570' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='22.460' y='17.920' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='24.650' y='15.030' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.000' y='15.380' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='22.110' y='15.030' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='22.460' y='15.380' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='24.650' y='12.490' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='25.000' y='12.840' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='22.110' y='12.490' width='1.7' height='1.7' rx='0.85' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='22.460' y='12.840' width='1.0' height='1.0' rx='0.5' fill='#fff' stroke='none' stroke-width='0.15'/>
+<rect x='29.125' y='9.565' width='1.75' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='29.125' y='12.365' width='1.75' height='1.25' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='12.155' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='13.425' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='14.695' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='15.965' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='17.235' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='18.505' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='50.275' y='19.775' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='19.775' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='18.505' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='17.235' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='15.965' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='14.695' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='13.425' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='55.225' y='12.155' width='0.6' height='1.95' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='14.800' y='16.425' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='14.800' y='18.250' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='38.500' y='35.112' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='38.500' y='33.288' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='47.300' y='12.225' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='47.300' y='14.050' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='57.275' y='18.950' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='57.275' y='17.050' width='1.45' height='1.0' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='80.225' y='23.300' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='78.125' y='23.300' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='75.175' y='17.100' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='73.075' y='17.100' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='34.500' y='29.912' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='34.500' y='28.088' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='11.775' y='13.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='9.675' y='13.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='60.700' y='29.312' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='60.700' y='27.488' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='8.300' y='29.488' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='8.300' y='27.663' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.500' y='29.800' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.500' y='27.975' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.500' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.500' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.375' y='13.700' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='84.275' y='13.700' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='37.975' y='16.500' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='35.875' y='16.500' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='86.375' y='15.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='84.275' y='15.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='11.775' y='15.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='9.675' y='15.900' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='34.500' y='35.112' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='34.500' y='33.288' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='37.975' y='14.500' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='35.875' y='14.500' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='75.175' y='19.300' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='73.075' y='19.300' width='0.45' height='0.6' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='60.700' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='60.700' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='8.300' y='33.263' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
+<rect x='8.300' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#d6d6d6' stroke='#c8c8c8' stroke-width='0.15'/>
 <text x='0.00' y='40.20' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Top of panel (J1, RV1)</text>
 <text x='100.00' y='40.20' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='end' dominant-baseline='central'>Bottom (J9, RV4)</text>
 <rect x='0' y='44.8' width='2.4' height='2.4' rx='0.2' fill='#d9302c'/>

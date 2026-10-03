@@ -2,12 +2,12 @@ Qty,Reference,Description,Manufacturer,Part Number,Link
 1,U1,"Quad JFET op-amp, SOIC-14 (TL084 also works)",Texas Instruments,TL074CDR,https://www.ti.com/lit/ds/symlink/tl074.pdf
 1,U2,"5.0V shunt voltage reference, SOT-23-3, cathode pin 1, anode pin 2 (or equivalent)",Microchip,LM4040DYM3-5.0-TR,https://www.ti.com/lit/ds/symlink/lm4040.pdf
 16,"R1, R2, R4, R5, R6, R7, R9, R10, R12, R13, R15, R16, R17, R18, R20, R21","Resistor, 100k, 1%, 0805",Yageo,RC0805FR-07100KL,
-4,"R3, R8, R14, R19","Resistor, 100 ohm, 1%, 0805",Yageo,RC0805FR-07100RL,
-1,R11,"Resistor, 1k, 1%, 0805",Yageo,RC0805FR-071KL,
+13,"R3, R8, R11, R14, R19, R22, R23, R24, R25, R26, R27, R28, R29","Resistor, 1k, 1%, 0805",Yageo,RC0805FR-071KL,
 4,"C1, C2, C3, C7","Capacitor, 10pF, 50V, C0G/NP0, 0805",Yageo,CC0805JRNPO9BN100,
 3,"C4, C6, C9","Capacitor, 100nF, 25V, X7R, 0805",AVX,08053C104KAT2A,
 2,"C5, C8","Capacitor, 10uF, 25V, X5R, 0805",Taiyo Yuden,TMK212BBJ106KG-T,
 2,"D1, D2","Diode, 1A, 300V, SMA",ON Semiconductor,MRA4003T3G,
+9,"D3, D4, D5, D6, D7, D8, D9, D10, D11","Diode, 1N4148, SOD-323, 75 V, 150 mA","Diodes Incorporated, or equivalent",1N4148WS-7-F,https://datasheet.octopart.com/1N4148WS-7-F-Diodes-Inc.-datasheet-7284054.pdf
 2,"F1, F2","Resettable fuse (PTC), 200mA hold, 30V, 1206",Bel Fuse,0ZCJ0020FF2E,
 1,J7,"Shrouded pin header, 2x5, 2.54mm, vertical",On Shore Technology,302-S101,
 8,"J1-J6, J8, J9","3.5mm mono switched jack, vertical, with nut (CUI MJ-3507 also works, with a ground wire from its sleeve lug to the square pad)",QingPu,WQP-PJ398SM or WQP518MA,http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html

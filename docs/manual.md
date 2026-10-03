@@ -18,13 +18,13 @@ The module is active: it needs ±12 V from your case's power supply.
 | Panel | 30 × 128.5 mm |
 | Depth | 20 mm |
 | Power | 16 mA on +12 V, 9 mA on −12 V, no +5 V. 10-pin header. |
-| Protection | Reverse-power diodes and resettable fuses on both rails |
+| Protection | Reverse-power diodes and resettable fuses on both rails, and clamp diodes on each input |
 | Jacks | 8 × 3.5 mm mono (TS): 4 inputs, 4 outputs |
 | Controls | 4 × knobs with a center detent (100 kΩ linear potentiometers) |
 | Range | ×−1 (fully anticlockwise) to 0 (center) to ×+1 (fully clockwise) |
 | Unplugged inputs | +5 V, so the output is −5 V to +5 V |
 | Input impedance | About 33–52 kΩ, depending on the knob (calculated) |
-| Output impedance | 100 Ω |
+| Output impedance | 1 kΩ |
 | Signals | Audio, CV, gates and bipolar signals. DC-coupled. |
 | Output swing | About ±10 V, limited by the op-amp running on ±12 V |
 
@@ -92,7 +92,7 @@ Channel 3 sets the LFO's depth. In 4 is empty, so Knob 4 gives a steady voltage 
 
 ## Good practice
 
-- **Don't patch outputs together.** Joining an Out jack to another module's output makes the two outputs fight each other, and the result is unpredictable. The 100 Ω output resistors help protect this module, but the other module may not be protected. Use a mixer to combine signals.
+- **Don't patch outputs together.** Joining an Out jack to another module's output makes the two outputs fight each other, and the result is unpredictable. The 1 kΩ output resistors help protect this module, but the other module may not be protected. Use a mixer to combine signals.
 - **An empty input isn't silent.** An unplugged input carries +5 V, so its output isn't 0 V unless the knob is at the center. If a patch has an unexpected offset, check for a channel with an empty input.
 - **The center click is close to zero, not exact.** Pots vary, so there may be a very small signal left at the detent. If you need true silence, unplug the output.
 - **Pitch CV (V/oct):** scaling a pitch CV changes the intervals, so the oscillator won't play in tune. Fully clockwise is close to ×1 but isn't calibrated for 1 V/oct. That can be a creative effect, but it's not a way to transpose. To transpose, use an empty input as an offset and add it to the pitch CV in a DC mixer.
@@ -110,7 +110,7 @@ The module is protected against a cable plugged in backwards, but don't rely on 
 
 ## Circuit
 
-Each channel is one section of a TL074 quad op-amp (U1), wired as a differential amplifier. The input goes to both ends of the circuit: through a 100 kΩ resistor to the op-amp's inverting input, and to one end of the knob's potentiometer, whose other end is grounded. The pot's wiper drives the op-amp's non-inverting input. With equal 100 kΩ resistors, the output is 2 × (wiper) − (input), so it runs from −1× the input with the wiper at ground to +1× with the wiper at the input, and is zero at the center. Two 100 kΩ resistors across the two halves of each pot give the center-weighted response. A 10 pF capacitor in the feedback loop keeps the op-amp stable, and a 100 Ω resistor protects each output.
+Each channel is one section of a TL074 quad op-amp (U1), wired as a differential amplifier. Each input jack goes through a 1 kΩ resistor to a node. Two clamp diodes hold that node between +12 V and −12 V, so a signal beyond about ±12 V can't reach the op-amp. From the node, the signal goes to both ends of the circuit: through a 100 kΩ resistor to the op-amp's inverting input, and to one end of the knob's potentiometer, whose other end is grounded. The pot's wiper drives the op-amp's non-inverting input. With equal 100 kΩ resistors, the output is 2 × (wiper) − (input), so it runs from −1× the input with the wiper at ground to +1× with the wiper at the input, and is zero at the center. Two 100 kΩ resistors across the two halves of each pot give the center-weighted response. A 10 pF capacitor in the feedback loop keeps the op-amp stable, and a 1 kΩ resistor protects each output.
 
 The inputs are switched jacks. Their normalling contacts connect to a 5.0 V reference (U2, an LM4040, fed from +12 V through a 1 kΩ resistor), so each unplugged input sees +5 V.
 
