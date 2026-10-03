@@ -6281,7 +6281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040DIM3X-5.0/NOPB"
 			(at 0 -2.4 180)
 			(layer "B.Fab")
 			(uuid "f99db947-5749-4204-8fc1-5f500040babc")

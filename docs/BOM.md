@@ -11,7 +11,7 @@ The **Easy Build Kit** includes a PCB with every surface-mount part below alread
 | Qty | Reference | Part | Manufacturer / Part No. | Notes |
 |----:|-----------|------|--------------------------|-------|
 | 1 | U1 | Quad JFET op-amp, SOIC-14 | Texas Instruments TL074CDR (TI, Microchip or Analog Devices only) | [Datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf) |
-| 1 | U2 | 5.0 V shunt voltage reference, SOT-23-3 | Texas Instruments LM4040DBZ-5 (TI, Microchip or Analog Devices only) | [Datasheet](https://www.ti.com/lit/ds/symlink/lm4040.pdf). Cathode on pin 1, anode on pin 2. Sets the +5 V that unplugged inputs receive. |
+| 1 | U2 | 5.0 V shunt voltage reference, SOT-23-3 | Texas Instruments LM4040DIM3X-5.0/NOPB (TI, Microchip or Analog Devices only) | [Datasheet](https://www.ti.com/lit/ds/symlink/lm4040.pdf). Cathode on pin 1, anode on pin 2. Sets the +5 V that unplugged inputs receive. |
 | 16 | R1, R2, R4, R5, R6, R7, R9, R10, R12, R13, R15, R16, R17, R18, R20, R21 | Resistor, 100 kΩ, 1%, 0805 | Yageo RC0805FR-07100KL, or equivalent | |
 | 13 | R3, R8, R11, R14, R19, R22–R29 | Resistor, 1 kΩ, 1%, 0805 | Yageo RC0805FR-071KL, or equivalent | R3, R8, R14 and R19 are the output resistors, one per channel. R11 feeds the 5 V reference. R22–R29 are part of the input protection. |
 | 4 | C1, C2, C3, C7 | Capacitor, 10 pF, 50 V, C0G/NP0, 0805 | Yageo CC0805JRNPO9BN100, or equivalent | |

@@ -5459,7 +5459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040DIM3X-5.0/NOPB"
 			(at 224.79 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
