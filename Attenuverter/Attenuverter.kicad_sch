@@ -10788,7 +10788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 151.003 90)
 			(hide yes)
 			(show_name no)
@@ -11021,7 +11021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 74.803 90)
 			(hide yes)
 			(show_name no)
@@ -11179,7 +11179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 82.423 90)
 			(hide yes)
 			(show_name no)
@@ -11260,7 +11260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 120.523 90)
 			(hide yes)
 			(show_name no)
@@ -11728,7 +11728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 36.703 90)
 			(hide yes)
 			(show_name no)
@@ -12040,7 +12040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 158.623 90)
 			(hide yes)
 			(show_name no)
@@ -12121,7 +12121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 264.8966 107.823 90)
 			(hide yes)
 			(show_name no)
@@ -12356,7 +12356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 44.323 90)
 			(hide yes)
 			(show_name no)
@@ -12823,7 +12823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS-7-F"
 			(at 47.7266 112.903 90)
 			(hide yes)
 			(show_name no)
