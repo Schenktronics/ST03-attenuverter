@@ -1,0 +1,29 @@
+# Publishes the documentation PDFs as a GitHub release. Run by hand from the
+# Actions tab once the PDF build (pdf.yml) has finished on main. The website's
+# download links point at the latest release, so a new release updates them.
+name: Release docs
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag, for example docs-2026-10-05"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release with the PDFs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          gh release create "$TAG" docs/pdf/*.pdf \
+            --target "$GITHUB_SHA" \
+            --title "Documentation $TAG" \
+            --notes "User manual and assembly guide PDFs."
