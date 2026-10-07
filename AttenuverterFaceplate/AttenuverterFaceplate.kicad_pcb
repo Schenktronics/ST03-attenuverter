@@ -2194,7 +2194,7 @@
 		(uuid "ac44d932-bcbd-4545-a7af-7f8ecc08ab63")
 	)
 	(gr_text "Attenuverter"
-		(at 130 33.6 0)
+		(at 130 34.0 0)
 		(layer "F.SilkS")
 		(uuid "c3bd7b3e-fa60-4318-a461-77c34d16b074")
 		(effects
