@@ -554,7 +554,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "C:/Projects/NTSFootprints/Schenktronics A4.kicad_wks"
+    "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -675,7 +675,7 @@
       "version": 1
     },
     "net_format_name": "Pcbnew",
-    "page_layout_descr_file": "C:/Projects/NTSFootprints/Schenktronics A4.kicad_wks",
+    "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "spice_adjust_passive_values": false,

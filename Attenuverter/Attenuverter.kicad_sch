@@ -8,7 +8,7 @@
 		(title "Attenuverter")
 		(date "2026-10-03")
 		(rev "1.1")
-		(company "Nathan Schenk")
+		(company "Schenktronics")
 	)
 	(lib_symbols
 	(symbol "Amplifier_Operational:TL074"
