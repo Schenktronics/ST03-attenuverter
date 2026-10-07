@@ -16041,7 +16041,7 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-00005ddcc1c8")
 	)
-	(gr_text "Attenuverter\nv1.1"
+	(gr_text "ST-03 v1.1\nAttenuverter"
 		(at 113.5 128.25 0)
 		(layer "B.SilkS")
 		(uuid "416cce91-5705-4a93-be16-9b4637fb2e78")
