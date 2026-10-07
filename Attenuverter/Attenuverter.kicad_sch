@@ -9,6 +9,7 @@
 		(date "2026-10-03")
 		(rev "1.1")
 		(company "Schenktronics")
+		(comment 4 "PCB-ST03-MAIN")
 	)
 	(lib_symbols
 	(symbol "Amplifier_Operational:TL074"
