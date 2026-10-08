@@ -1,7 +1,7 @@
 {
   "product": "Attenuverter",
   "pcbVersion": "v1.0",
-  "repo": "schenkzoola/Attenuverter",
+  "repo": "schenkzoola/ST03-attenuverter",
   "branch": "master",
   "documents": [
     { "src": "manual.md", "out": "attenuverter-manual.pdf", "title": "User Manual" },

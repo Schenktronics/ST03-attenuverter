@@ -1,6 +1,6 @@
 # Attenuverter — Assembly Guide
 
-This kit has 139 solder joints, 85 of them on surface-mount parts: 0805 resistors and capacitors, and a SOIC-14 chip. It takes about 1½–2 hours if you're experienced with surface-mount soldering, and longer if you're not. If you haven't soldered surface-mount parts before, practice on a scrap board first, or start with a through-hole kit such as the [Passive Attenuator](https://github.com/schenkzoola/Attenuator).
+This kit has 139 solder joints, 85 of them on surface-mount parts: 0805 resistors and capacitors, and a SOIC-14 chip. It takes about 1½–2 hours if you're experienced with surface-mount soldering, and longer if you're not. If you haven't soldered surface-mount parts before, practice on a scrap board first, or start with a through-hole kit such as the [Passive Attenuator](https://github.com/schenkzoola/ST02-attenuator).
 
 **Building the Easy Build Kit?** Its board arrives with every surface-mount part already soldered and tested, so skip [Step 1](#step-1--solder-the-surface-mount-parts) and start at [Step 2](#step-2--fit-the-power-header). That leaves 54 through-hole joints, about 45–60 minutes, and no surface-mount soldering at all.
 
