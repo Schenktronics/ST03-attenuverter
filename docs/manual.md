@@ -114,4 +114,4 @@ Each channel is one section of a TL074 quad op-amp (U1), wired as a differential
 
 The inputs are switched jacks. Their normalling contacts connect to a 5.0 V reference (U2, an LM4040, fed from +12 V through a 1 kΩ resistor), so each unplugged input sees +5 V.
 
-The power input has a resettable fuse and a reverse-biased diode on each rail. If the power cable is plugged in backwards, the diodes conduct and the fuses trip, protecting the circuit. The schematic is in [Attenuverter/Attenuverter.sch](../Attenuverter/Attenuverter.sch) (KiCad 5).
+The power input has a resettable fuse and a reverse-biased diode on each rail. If the power cable is plugged in backwards, the diodes conduct and the fuses trip, protecting the circuit. The schematic is in [hardware/attenuverter/Attenuverter.sch](../hardware/attenuverter/Attenuverter.sch) (KiCad 5).

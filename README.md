@@ -28,15 +28,17 @@ A 6HP Eurorack quad attenuverter from **Schenktronics**. Each of its four channe
 ## Repository layout
 
 ```
-Attenuverter/                 Main PCB (KiCad 5.1)
-  Attenuverter.sch              Schematic
-  Attenuverter.kicad_pcb        PCB layout
-  Attenuverter.step             3D model
-  Gerbers/, *Gerbers.zip        Fabrication files
-  attenuverter BOM.xlsx         Original BOM spreadsheet
-AttenuverterFaceplate/        Faceplate (KiCad 5.1, made as an aluminium PCB)
-  *.dxf                         Panel outline and drill drawing
-  *Gerbers/, *Gerbers.zip       Fabrication files
+hardware/
+  attenuverter/                Main PCB (KiCad 10)
+    Attenuverter.kicad_sch       Schematic
+    Attenuverter.kicad_pcb       PCB layout
+    Attenuverter.step            3D model
+    attenuverter BOM.xlsx        Original BOM spreadsheet
+  panel/                       Faceplate (KiCad 10, made as an aluminium PCB)
+    AttenuverterFaceplate.kicad_pcb  Faceplate layout
+manufacturing/
+  attenuverter/                Gerbers, drill and placement files for the main PCB
+  panel/                       Gerbers, drill files and the panel drawing (.dxf)
 docs/                         Manual, assembly guide, BOM, images
   drawings/                     Scripts that generate the drawings
   pdf/                          PDF versions and their build settings

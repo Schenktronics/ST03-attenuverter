@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-PCB = ROOT / "AttenuverterFaceplate" / "AttenuverterFaceplate.kicad_pcb"
+PCB = ROOT / "hardware" / "panel" / "AttenuverterFaceplate.kicad_pcb"
 OUT = ROOT / "docs" / "images"
 
 INK = "#1a1a1a"

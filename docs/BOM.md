@@ -1,6 +1,6 @@
 # Bill of Materials — Attenuverter v1.0
 
-A machine-readable copy is in [BOM.csv](BOM.csv). The original spreadsheet is [Attenuverter/attenuverter BOM.xlsx](<../Attenuverter/attenuverter BOM.xlsx>).
+A machine-readable copy is in [BOM.csv](BOM.csv). The original spreadsheet is [hardware/attenuverter/attenuverter BOM.xlsx](<../hardware/attenuverter/attenuverter BOM.xlsx>).
 
 All the resistors, capacitors, diodes, fuses and chips are surface-mount parts on the back of the board. The resistors and capacitors are 0805 size. Parts marked "or equivalent" can be swapped for any part with the same value, package and pinout.
 
@@ -29,8 +29,8 @@ The **Easy Build Kit** includes a PCB with every surface-mount part below alread
 | 8 | J1–J6, J8, J9 | 3.5 mm mono switched jack, vertical PCB mount, with nut | QingPu WQP-PJ398SM or WQP518MA, or equivalent. Either one works. CUI MJ-3507 also works, with a ground wire. | [Datasheet / product page](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html). The inputs use the switched contact for the +5 V normal. The footprint also takes the CUI MJ-3507 ([datasheet](https://www.cuidevices.com/product/resource/mj-3507.pdf)), which is on Mouser: its tip and switch pins go into the board, and its sleeve lug needs a short wire to the jack's square ground pad. |
 | 4 | RV1–RV4 | Potentiometer, 100 kΩ linear, 9 mm, center detent, bushingless, 25 mm flat (D) shaft, with board-lock lugs | Bourns PTV09A-4225F-B104, or equivalent | [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf). The center detent marks zero. There's no threaded bushing or nut: the pots are held by the PCB. An equivalent must fit the 9 mm footprint (3 pins in a row, 2 mounting lugs) and pass through the 7 mm panel hole. |
 | 4 | — | Knob, for 6 mm shaft | Davies Molding 1221-J, or equivalent | An equivalent must fit the pot's D shaft. |
-| 1 | — | Main PCB, 30 × 100 mm, 2-layer, 1.6 mm FR4 | Schenktronics | Gerbers: [AttenuverterGerbers.zip](../Attenuverter/AttenuverterGerbers.zip) |
-| 1 | — | Faceplate, 6HP (30 × 128.5 mm), 1.6 mm aluminium PCB | Schenktronics | Gerbers: [AttenuverterFaceplateGerbers.zip](../AttenuverterFaceplate/AttenuverterFaceplateGerbers.zip). Single-sided, so it can also be made in FR4. |
+| 1 | — | Main PCB, 30 × 100 mm, 2-layer, 1.6 mm FR4 | Schenktronics | Gerbers: [AttenuverterGerbers.zip](../manufacturing/attenuverter/AttenuverterGerbers.zip) |
+| 1 | — | Faceplate, 6HP (30 × 128.5 mm), 1.6 mm aluminium PCB | Schenktronics | Gerbers: [AttenuverterFaceplateGerbers.zip](../manufacturing/panel/AttenuverterFaceplateGerbers.zip). Single-sided, so it can also be made in FR4. |
 | 1 | — | Eurorack power cable, 10-pin to 16-pin | | Red stripe marks −12 V. |
 
 ## Not included
