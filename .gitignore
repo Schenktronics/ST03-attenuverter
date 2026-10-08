@@ -1,3 +1,12 @@
 .DS_Store
 __pycache__/
 node_modules/
+
+# KiCad local files (per-user state, autosave history, backups, lock files)
+*.kicad_prl
+*.lck
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+.history/
+rescue-backup/
