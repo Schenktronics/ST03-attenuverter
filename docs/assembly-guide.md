@@ -171,7 +171,7 @@ Turn the assembly over and solder from the back of the PCB, between the surface-
 
 ## Step 7 — Fit the knobs
 
-Push each knob onto its pot shaft. The flat on the shaft sets the knob's position. Turn each knob to its center click and check that the pointer points straight up, at the long mark on the panel. Check that each knob turns without rubbing on the panel.
+Push each knob onto its pot shaft. The flat on the shaft sets the knob's position. Turn each knob so the pointer points straight up, at the long mark on the panel. Check that each knob turns without rubbing on the panel.
 
 ## Step 8 — Test
 
@@ -188,7 +188,7 @@ With nothing plugged into the inputs, measure each output with the multimeter on
 | Knob | Expected output |
 |------|-----------------|
 | Fully clockwise | About +5 V |
-| Center click | About 0 V |
+| Pointer centered, at the long mark | About 0 V |
 | Fully anticlockwise | About −5 V |
 
 Then patch an LFO or other moving signal into each input in turn, and listen or watch as you turn the knob from one end to the other: the signal should shrink to nothing at the center and grow again, inverted, on the other side.
@@ -213,5 +213,5 @@ Install the module in your case with the included power cable and four M3 rack s
 | An output is stuck near +10 V or −10 V | A missing or badly soldered resistor on that channel, so the op-amp has no feedback. Check the 100 kΩ resistors near it. |
 | An empty input works, but a plugged-in signal doesn't come through | A bad joint on that input jack's tip leg. |
 | A knob works backwards (clockwise inverts) | The pot is a different type from the one in the BOM. |
-| The center click isn't at 0 V | A small offset is normal. A large one means a resistor of the wrong value next to that pot: check the two 100 kΩ resistors beside it. |
+| The output isn't quite 0 V with the pointer centered | A small offset is normal. A large one means a resistor of the wrong value next to that pot: check the two 100 kΩ resistors beside it. |
 | A knob rubs on the panel | The shaft isn't centered in its hole, or the knob is pushed on too far. |

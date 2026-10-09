@@ -20,7 +20,7 @@ The module is active: it needs ±12 V from your case's power supply.
 | Power | 16 mA on +12 V, 9 mA on −12 V, no +5 V. 10-pin header. |
 | Protection | Reverse-power diodes and resettable fuses on both rails, and clamp diodes on each input |
 | Jacks | 8 × 3.5 mm mono (TS): 4 inputs, 4 outputs |
-| Controls | 4 × knobs with a center detent (100 kΩ linear potentiometers) |
+| Controls | 4 × knobs with a printed zero mark (100 kΩ linear potentiometers) |
 | Range | ×−1 (fully anticlockwise) to 0 (center) to ×+1 (fully clockwise) |
 | Unplugged inputs | +5 V, so the output is −5 V to +5 V |
 | Input impedance | About 33–52 kΩ, depending on the knob (calculated) |
@@ -46,13 +46,13 @@ Each knob sets how much of the input reaches the output, and which way up:
 |---------------|--------|
 | Fully clockwise | The input, unchanged (×1) |
 | Halfway between the center and fully clockwise | About a third of the input (×0.36) |
-| Center (the click) | Nothing (×0) |
+| Center | Nothing (×0) |
 | Halfway between the center and fully anticlockwise | About a third of the input, inverted (×−0.36) |
 | Fully anticlockwise | The input, inverted (×−1) |
 
 "Inverted" means turned upside down: a rising envelope falls instead, and a +3 V CV becomes −3 V.
 
-The knob has a click (detent) at the center, where the output is zero. It's easy to find by feel, so it's quick to return a channel to "off".
+The panel prints a long mark at the top of each knob's travel, where the output is zero. Line the knob's pointer up with it to return a channel to "off".
 
 The knobs are center-weighted. Halfway to either end gives about a third of the signal rather than half, so more of the knob's travel is spent on small amounts. That's where fine control usually matters, for example for a gentle vibrato or a small filter wobble.
 
@@ -96,7 +96,7 @@ Channel 3 sets the LFO's depth. In 4 is empty, so Knob 4 gives a steady voltage 
 
 - **Don't patch outputs together.** Joining an Out jack to another module's output makes the two outputs fight each other, and the result is unpredictable. The 1 kΩ output resistors help protect this module, but the other module may not be protected. Use a mixer to combine signals.
 - **An empty input isn't silent.** An unplugged input carries +5 V, so its output isn't 0 V unless the knob is at the center. If a patch has an unexpected offset, check for a channel with an empty input.
-- **The center click is close to zero, not exact.** Pots vary, so there may be a very small signal left at the detent. If you need true silence, unplug the output.
+- **The zero mark is close to zero, not exact.** Pots vary, so there may be a very small signal left even with the pointer lined up. If you need true silence, unplug the output.
 - **Pitch CV (V/oct):** scaling a pitch CV changes the intervals, so the oscillator won't play in tune. Fully clockwise is close to ×1 but isn't calibrated for 1 V/oct. That can be a creative effect, but it's not a way to transpose. To transpose, use an empty input as an offset and add it to the pitch CV in a DC mixer.
 - **Signals above about ±10 V clip.** The op-amp can't swing further than that on ±12 V. Standard Eurorack signals fit.
 

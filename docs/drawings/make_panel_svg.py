@@ -70,7 +70,7 @@ def arc_path(cx, cy, sx, sy, angle):
 
 
 def knob(x, y):
-    """A knob seen from the front, pointer at 12 o'clock (the center detent)."""
+    """A knob seen from the front, pointer at 12 o'clock (the panel's zero mark)."""
     return [f"<circle cx='{x}' cy='{y}' r='{KNOB_R}' fill='#fff' stroke='{INK}' stroke-width='0.35'/>",
             f"<circle cx='{x}' cy='{y}' r='{KNOB_R - 1.3}' fill='#fff' stroke='{INK}' stroke-width='0.25'/>",
             f"<line x1='{x}' y1='{y - KNOB_R}' x2='{x}' y2='{y - 2}' stroke='{INK}' stroke-width='0.6' "

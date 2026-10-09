@@ -75,7 +75,7 @@ class Patch:
         self.plugs.append(f"<circle cx='{jx}' cy='{jy}' r='2.3' fill='{color}' stroke='{INK}' stroke-width='0.3'/>")
 
     def turn(self, knob, degrees, color=RED):
-        """Show a knob's setting: 0 is the center detent (12 o'clock), negative is left."""
+        """Show a knob's setting: 0 is centered (12 o'clock, the panel's zero mark), negative is left."""
         kx, ky = self.knobs[knob]
         a = math.radians(degrees)
         point = lambda r: (kx + r * math.sin(a), ky - r * math.cos(a))
