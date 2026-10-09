@@ -7,7 +7,7 @@
 
 A 6HP Eurorack quad attenuverter from **Schenktronics**. Each of its four channels scales a signal by anywhere from ×1, through zero, to ×−1 (inverted), with a click at zero. Every input is normalled to +5 V, so with nothing plugged in, each channel is a manual offset from −5 V to +5 V.
 
-<img src="docs/images/front.jpg" alt="Attenuverter front panel" width="160">
+<img src="docs/images/outline-front.svg" alt="Attenuverter front panel" width="160">
 
 ## Features
 

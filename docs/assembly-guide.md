@@ -6,7 +6,7 @@ This kit has 139 solder joints, 85 of them on surface-mount parts: 0805 resistor
 
 **Prefer to watch?** There's a video of the whole build: [Watch me build a surface mount attenuverter!](https://www.youtube.com/watch?v=QJxtZVHBpq0)
 
-<img src="images/pcb-and-panel.jpg" alt="Faceplate and bare PCB, back side up, side by side" width="240">
+<img src="images/outline-bare-parts.svg" alt="The faceplate and the bare PCB, before assembly" width="260">
 
 ## What you need
 
@@ -198,6 +198,8 @@ Then patch an LFO or other moving signal into each input in turn, and listen or 
 ## Step 9 — Install
 
 Install the module in your case with the included power cable and four M3 rack screws (two will do). The details, and how to use the module, are in the [User Manual](manual.md#installation).
+
+<img src="images/outline-iso-top-left.svg" alt="Assembled module, isometric view" width="160">
 
 ## Troubleshooting
 

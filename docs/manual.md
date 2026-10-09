@@ -1,6 +1,6 @@
 # Attenuverter — User Manual
 
-<img src="images/front.jpg" alt="Attenuverter front panel" width="120">
+<img src="images/outline-front.svg" alt="Attenuverter front panel" width="120">
 
 ## Overview
 
@@ -27,6 +27,8 @@ The module is active: it needs ±12 V from your case's power supply.
 | Output impedance | 1 kΩ |
 | Signals | Audio, CV, gates and bipolar signals. DC-coupled. |
 | Output swing | About ±10 V, limited by the op-amp running on ±12 V |
+
+<img src="images/outline-side.svg" alt="Side view of the assembled module, showing the panel, PCB, jacks and pots" width="180">
 
 ## Panel layout
 
