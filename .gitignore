@@ -2,6 +2,12 @@
 __pycache__/
 node_modules/
 
+# Gerbers, drill files, pick-and-place and panel DXFs — entirely
+# regenerable from the KiCad PCB files in hardware/, so not committed;
+# keeping copies here only risked them going stale. See the README's
+# Fabrication section for how to regenerate them.
+manufacturing/
+
 # KiCad local files (per-user state, autosave history, backups, lock files)
 *.kicad_prl
 *.lck
