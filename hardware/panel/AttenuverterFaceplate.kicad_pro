@@ -283,7 +283,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -305,7 +305,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "AttenuverterFaceplate.step",
       "vrml": ""
     },
     "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks"

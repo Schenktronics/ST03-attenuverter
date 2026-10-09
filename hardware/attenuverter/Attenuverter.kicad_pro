@@ -551,7 +551,7 @@
       "netlist": "Attenuverter.net",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Attenuverter.step",
       "vrml": ""
     },
     "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks"

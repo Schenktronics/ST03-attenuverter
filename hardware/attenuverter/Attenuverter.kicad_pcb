@@ -146,34 +146,8 @@
 		(path "/00000000-0000-0000-0000-00005de125ca")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c55d27f7-7a69-469b-a8d4-6bde89e73927")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fadb9a0-497f-42c5-918c-5087c51c3e46")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -470,26 +444,27 @@
 			(uuid "91c2c10e-1545-4037-aa87-68146ddd11ed")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -548,34 +523,8 @@
 		(path "/00000000-0000-0000-0000-00005ddbe5a8")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f0d7b6b-ffca-4a2b-9f7e-636e5d1062a1")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3548e449-b556-4ce1-af0f-cdc2d8faa2e9")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -872,26 +821,27 @@
 			(uuid "1cbe6a69-5a6e-40f4-b66c-197872682bf6")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -950,34 +900,8 @@
 		(path "/00000000-0000-0000-0000-00005de41418")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "58d63684-4976-4430-bddd-13d12ee61031")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "24904b51-0696-4d08-bb10-d433057a959f")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -1274,26 +1198,27 @@
 			(uuid "3b90e536-48a5-4da7-9198-46c4799cf686")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -1352,34 +1277,8 @@
 		(path "/00000000-0000-0000-0000-00005de125c4")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ff9946b8-75b9-4d5d-a102-d2aa70dbd004")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2493270-fd2d-4ef5-b8bf-5885e1cc7639")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -1676,26 +1575,27 @@
 			(uuid "11063be6-adb8-4661-a0cc-27e9d257fd89")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -1754,34 +1654,8 @@
 		(path "/00000000-0000-0000-0000-00005de4ccbb")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8037eb7c-c339-4a30-a678-9d897341be96")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8bb4de52-94d4-43c8-8659-c9cb9f5d0849")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -2078,26 +1952,27 @@
 			(uuid "c6e305ac-cba8-4f63-8bbb-dee5b3c47025")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -2156,34 +2031,8 @@
 		(path "/00000000-0000-0000-0000-00005de4ccb5")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad839a93-673a-4349-823e-94c3717a12e1")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "99cce015-55ae-4652-b78e-ad3efe624620")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -2480,26 +2329,27 @@
 			(uuid "7bfe0d96-0762-4672-8935-7912d71e7f25")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -2558,34 +2408,8 @@
 		(path "/00000000-0000-0000-0000-00005de41412")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "32595364-d41a-4e44-8961-0d3065179b76")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bcd928a8-963f-40e9-b677-b85d6d1527ad")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -2882,26 +2706,27 @@
 			(uuid "1cd4178e-ebdf-4728-bb46-bb00e1975f78")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -2959,12 +2784,6 @@
 		(path "/00000000-0000-0000-0000-00005de125dc")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3233,7 +3052,8 @@
 			(uuid "cf236f52-7f9e-4a34-a60a-13aa79aca8af")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+			(hide yes)
 			(offset
 				(xyz 7.5 2.5 6.5)
 			)
@@ -3241,7 +3061,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz 90 -0 -90)
+			)
+		)
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/PTV09A-4020F-B104.stp"
+			(offset
+				(xyz 7.5 2.5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -3299,12 +3130,6 @@
 		(path "/00000000-0000-0000-0000-00005de4142a")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3573,7 +3398,8 @@
 			(uuid "245bfba0-9765-4442-89d8-1f5ec64226a8")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+			(hide yes)
 			(offset
 				(xyz 7.5 2.5 6.5)
 			)
@@ -3581,7 +3407,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz 90 -0 -90)
+			)
+		)
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/PTV09A-4020F-B104.stp"
+			(offset
+				(xyz 7.5 2.5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -3639,12 +3476,6 @@
 		(path "/00000000-0000-0000-0000-00005de4cccd")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3913,7 +3744,8 @@
 			(uuid "676a4426-144f-4b11-bade-9b2873f78c43")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+			(hide yes)
 			(offset
 				(xyz 7.5 2.5 6.5)
 			)
@@ -3921,7 +3753,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz 90 -0 -90)
+			)
+		)
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/PTV09A-4020F-B104.stp"
+			(offset
+				(xyz 7.5 2.5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -3979,12 +3822,6 @@
 		(path "/00000000-0000-0000-0000-00005ddc8c46")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4253,7 +4090,8 @@
 			(uuid "a486ad8f-047d-4afd-a38b-79c265e83f2f")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/ptv09a-4x30u-xxxx.stp"
+			(hide yes)
 			(offset
 				(xyz 7.5 2.5 6.5)
 			)
@@ -4261,7 +4099,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz 90 -0 -90)
+			)
+		)
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/PTV09A-4020F-B104.stp"
+			(offset
+				(xyz 7.5 2.5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -4320,34 +4169,8 @@
 		(path "/00000000-0000-0000-0000-00005ddc157e")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.06 -1)
-			(end -0.2 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "291161a6-2b09-480b-8451-71ee0ce3d444")
-		)
-		(fp_line
-			(start -1.06 -1)
-			(end -1.06 -0.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2eeca617-6bd6-47b3-afd8-722d6b93d537")
-		)
 		(fp_line
 			(start 4.5 1.98)
 			(end 0.35 1.98)
@@ -4644,26 +4467,27 @@
 			(uuid "fcefc5ec-7bb7-4b3b-9700-4685f509b8f4")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/Thonkiconn_PJ398SM.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/CUI_MJ-3507.step"
+			(hide yes)
 			(offset
-				(xyz 0 -6.8 13.7)
+				(xyz 0 0 13.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 90 0)
+				(xyz 90 90 -0)
 			)
 		)
 	)
@@ -4738,12 +4562,6 @@
 		(path "/00000000-0000-0000-0000-00005de1261c")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4902,12 +4720,6 @@
 		(path "/00000000-0000-0000-0000-00005de4146a")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5066,12 +4878,6 @@
 		(path "/00000000-0000-0000-0000-00005ddec2a5")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5230,12 +5036,6 @@
 		(path "/00000000-0000-0000-0000-00005dddd497")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5394,12 +5194,6 @@
 		(path "/00000000-0000-0000-0000-00005de6d066")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5558,12 +5352,6 @@
 		(path "/00000000-0000-0000-0000-00005de6c020")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5722,12 +5510,6 @@
 		(path "/00000000-0000-0000-0000-00005de4cd0d")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5886,12 +5668,6 @@
 		(path "/00000000-0000-0000-0000-00005de6cba1")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6041,12 +5817,6 @@
 		(path "/00000000-0000-0000-0000-00005dee30d1")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6335,12 +6105,6 @@
 		(path "/00000000-0000-0000-0000-00005ddde922")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6723,12 +6487,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccdf")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6887,12 +6645,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccfc")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7051,12 +6803,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccc7")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7215,12 +6961,6 @@
 		(path "/00000000-0000-0000-0000-00005de41436")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7379,12 +7119,6 @@
 		(path "/00000000-0000-0000-0000-00005de125e2")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7543,12 +7277,6 @@
 		(path "/00000000-0000-0000-0000-00005de41459")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7707,12 +7435,6 @@
 		(path "/00000000-0000-0000-0000-00005de41430")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7871,12 +7593,6 @@
 		(path "/00000000-0000-0000-0000-00005de125ee")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8035,12 +7751,6 @@
 		(path "/00000000-0000-0000-0000-00005ddcd4c4")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8199,12 +7909,6 @@
 		(path "/00000000-0000-0000-0000-00005dee3b0b")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8363,12 +8067,6 @@
 		(path "/00000000-0000-0000-0000-00005de125e8")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8527,12 +8225,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccd3")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8682,12 +8374,6 @@
 		(path "/00000000-0000-0000-0000-00005dee4bf9")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8976,12 +8662,6 @@
 		(path "/00000000-0000-0000-0000-00005dde5f57")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9140,12 +8820,6 @@
 		(path "/00000000-0000-0000-0000-00005de4143c")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9304,12 +8978,6 @@
 		(path "/00000000-0000-0000-0000-00005de125d6")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9468,12 +9136,6 @@
 		(path "/00000000-0000-0000-0000-00005ddcbd7b")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9632,12 +9294,6 @@
 		(path "/00000000-0000-0000-0000-00005dddb57a")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9796,12 +9452,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccd9")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9960,12 +9610,6 @@
 		(path "/00000000-0000-0000-0000-00005de41424")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10110,12 +9754,6 @@
 		(path "/00000000-0000-0000-0000-00005dee03c1")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "2" "4" "6" "8" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10461,7 +10099,7 @@
 			(uuid "e44eaa65-ba43-40c2-a359-1d0aff4ec5bf")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOMLIB}/_NTSFootprints.pretty/3D/702461004.stp"
+		(model "/Users/nathanschenk/Products/NTSFootprints/_NTSFootprints.pretty/3D/702461004.stp"
 			(offset
 				(xyz 1.25 -5.1 5.8)
 			)
@@ -10544,12 +10182,6 @@
 		(path "/00000000-0000-0000-0000-00005dee1c21")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10708,28 +10340,6 @@
 		(path "/00000000-0000-0000-0000-00005de4ccc1")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-			(unit
-				(name "C")
-				(pins "10" "9" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "14")
-			)
-			(unit
-				(name "E")
-				(pins "4" "11")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11168,12 +10778,6 @@
 		(path "/00000000-0000-0000-0000-00005ddcc3e4")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11332,12 +10936,6 @@
 		(path "/00000000-0000-0000-0000-00005de1260b")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11496,12 +11094,6 @@
 		(path "/00000000-0000-0000-0000-00005ddc84d9")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11660,12 +11252,6 @@
 		(path "/00000000-0000-0000-0000-00005de6c70a")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11815,12 +11401,6 @@
 		(path "/9bca4847-73f9-4b9d-a4ef-1f09fd1bde20")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12088,6 +11668,19 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "479907d9-3a2d-4e4c-acf9-afe5b1adedb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12111,6 +11704,18 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "55d5a6d3-794f-4320-bd84-c27ad462d0d2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "069b44d0-98b7-47e0-a37e-3be224398be8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -12184,12 +11789,6 @@
 		(path "/1b63a6c9-49a0-485e-9489-b1543fafc200")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12478,12 +12077,6 @@
 		(path "/e02ed48b-aed2-41d9-bbdd-76a408a7381e")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12633,12 +12226,6 @@
 		(path "/55253ac4-76ed-49d9-9e7e-39b07fe72e9f")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12927,12 +12514,6 @@
 		(path "/d0796fd7-850f-4490-81db-629809e49b03")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13091,12 +12672,6 @@
 		(path "/21682693-2aac-4980-a5a5-58badf56d877")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13255,12 +12830,6 @@
 		(path "/4065bf0c-5f6f-47bd-8371-b3e8147ba923")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13419,12 +12988,6 @@
 		(path "/83ffa51b-9ed7-4992-bddb-7192d9dbe401")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13562,6 +13125,19 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "517cda41-41ea-41a5-8fdd-1cbe20bc9b63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13585,6 +13161,18 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "56e3552a-5ca6-4f6e-9bd8-f66e82187552")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "fff38e00-0d81-4a9e-8884-0d4db91faa50")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -13646,6 +13234,19 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "91112087-af5f-4859-b786-dbbd3ff62a66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13669,6 +13270,18 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "7c61e6b1-a537-4a57-b1e8-dc269f4feb78")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "4522fbce-c94e-4f34-80f0-f820f7815857")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -13742,12 +13355,6 @@
 		(path "/97902b05-122d-48f5-8b8d-ddb76a3f1746")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14027,12 +13634,6 @@
 		(path "/1a963513-2f08-44c9-8d94-fe307796f509")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14312,12 +13913,6 @@
 		(path "/034e92f3-18ba-4937-b247-6dbf399d98db")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14597,12 +14192,6 @@
 		(path "/c7b5da11-d33f-4b40-8013-78000856475a")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14891,12 +14480,6 @@
 		(path "/545de22b-e3ed-4ac8-8c10-8a231d7a9822")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15046,12 +14629,6 @@
 		(path "/1b62985f-5f0b-43c0-acfc-b3b2e83123f1")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15331,12 +14908,6 @@
 		(path "/fcdcd0fc-6cc5-4c26-bfed-cd03e5ee1a37")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15625,12 +15196,6 @@
 		(path "/bce87d68-b02d-4ca9-8ef6-c4ecee90c28e")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15898,12 +15463,6 @@
 		(path "/e8d70825-aa1f-4a90-b4a5-df6450bd54de")
 		(sheetname "/")
 		(sheetfile "Attenuverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
