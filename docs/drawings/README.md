@@ -62,7 +62,7 @@ def invert_envelope(data):
     ...
 ```
 
-Jacks and knobs are named `In 1`–`In 4`, `Out 1`–`Out 4` and `Knob 1`–`Knob 4`, from the top. Sources go on the left, destinations on the right. `turn()` sets a knob's pointer, in degrees from the center click (negative is anticlockwise). `note()` puts a caption to the left of a knob or jack. Pass `color=BLUE` to draw a second signal. To add an example, write a new function, add it to the list in `main()`, and run:
+Jacks and knobs are named `In 1`–`In 4`, `Out 1`–`Out 4` and `Knob 1`–`Knob 4`, from the top. Sources go on the left, destinations on the right. `turn()` sets a knob's pointer, in degrees from the zero mark at the top (negative is anticlockwise). `note()` puts a caption to the left of a knob or jack. Pass `color=BLUE` to draw a second signal. To add an example, write a new function, add it to the list in `main()`, and run:
 
 ```sh
 python3 docs/drawings/make_patch_svgs.py
