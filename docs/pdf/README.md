@@ -7,7 +7,7 @@ Printable versions of the docs:
 
 These are built from [`../manual.md`](../manual.md) and [`../assembly-guide.md`](../assembly-guide.md). **Don't edit the PDFs by hand.** Edit the Markdown instead.
 
-The build tool lives in [schenktronics-docs-tools](https://github.com/schenkzoola/schenktronics-docs-tools), so this repo only holds its settings, in [`config.json`](config.json): the product name, PCB version and which documents to build.
+The build tool lives in [schenktronics-docs-tools](https://github.com/Schenktronics/schenktronics-docs-tools), so this repo only holds its settings, in [`config.json`](config.json): the product name, PCB version and which documents to build.
 
 ## Automatic builds
 
@@ -17,7 +17,7 @@ After an update to schenktronics-docs-tools, run the workflow by hand from the r
 
 ## Previewing locally
 
-See [Previewing locally](https://github.com/schenkzoola/schenktronics-docs-tools#previewing-locally) in the tools repo. In short:
+See [Previewing locally](https://github.com/Schenktronics/schenktronics-docs-tools#previewing-locally) in the tools repo. In short:
 
 ```sh
 node ~/Products/schenktronics-docs-tools/pdf/build.mjs docs/pdf/config.json

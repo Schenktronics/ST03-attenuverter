@@ -25,4 +25,4 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # the "Updated" date comes from git history
-      - uses: schenkzoola/schenktronics-docs-tools/pdf@v1
+      - uses: Schenktronics/schenktronics-docs-tools/pdf@v1
