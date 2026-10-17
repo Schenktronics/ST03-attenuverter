@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='-3 -3 106 55.0' width='424' height='220'>
-<title>Step 2: power header</title>
+<title>Step 1: power header</title>
 <rect x='-3' y='-3' width='106' height='55.0' fill='#fff'/>
 <text x='0.00' y='2.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='3' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Back (surface-mount side)</text>
 <text x='0.00' y='6.10' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Fit J7 here and solder its pins on the front.</text>
@@ -264,7 +264,7 @@
 <rect x='8.300' y='35.087' width='1.4' height='1.025' rx='0.15' fill='#fff' stroke='#c8c8c8' stroke-width='0.15'/>
 <line x1='25.50' y1='23.50' x2='25.50' y2='45.00' stroke='#d9302c' stroke-width='0.25'/>
 <circle cx='25.50' cy='23.50' r='0.45' fill='#d9302c'/>
-<text x='26.50' y='45.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='bold' fill='#d9302c' text-anchor='start' dominant-baseline='central'>Pin 1 (square pad) is −12 V: the red stripe goes this side</text>
+<text x='26.50' y='45.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='bold' fill='#d9302c' text-anchor='start' dominant-baseline='central'>Pin 1 (square pad) is -12 V: the red stripe goes this side</text>
 <line x1='28.29' y1='18.42' x2='31.29' y2='49.00' stroke='#d9302c' stroke-width='0.25'/>
 <circle cx='28.29' cy='18.42' r='0.45' fill='#d9302c'/>
 <text x='32.29' y='49.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='bold' fill='#d9302c' text-anchor='start' dominant-baseline='central'>The shroud's notch goes at the gap in the outline</text>

@@ -127,7 +127,7 @@ def offset(data):
     p.dest("Out 4", "DC mixer", "in 2", color=BLUE)
     p.turn("Knob 3", 60)
     p.turn("Knob 4", 45, color=BLUE)
-    p.note("In 4", "In 4 empty", "Knob 4 sets −5 V to +5 V", color=BLUE)
+    p.note("In 4", "In 4 empty", "Knob 4 sets -5 V to +5 V", color=BLUE)
     return p.render("Patch example: offset an LFO")
 
 

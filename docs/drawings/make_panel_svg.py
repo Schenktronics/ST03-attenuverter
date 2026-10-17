@@ -23,39 +23,108 @@ JACK, POT = 6.0, 7.0
 KNOB_R = 4.8  # radius of the knob as drawn
 
 
+def read_sexp(text):
+    """Parse a KiCad S-expression file into nested lists of strings."""
+    tokens = re.findall(r'\(|\)|"(?:[^"\\]|\\.)*"|[^\s()]+', text)
+
+    def parse_list(pos):
+        items = []
+        while pos < len(tokens):
+            tok = tokens[pos]
+            if tok == "(":
+                node, pos = parse_list(pos + 1)
+                items.append(node)
+            elif tok == ")":
+                return items, pos + 1
+            else:
+                items.append(tok[1:-1] if tok.startswith('"') else tok)
+                pos += 1
+        return items, pos
+
+    return parse_list(1)[0]  # skip the opening paren of (kicad_pcb ...)
+
+
+def tagged(node, name):
+    """Direct children of node that are lists starting with `name`."""
+    return [c for c in node if isinstance(c, list) and c and c[0] == name]
+
+
+def first(node, name):
+    found = tagged(node, name)
+    return found[0] if found else None
+
+
+def xy(node, name):
+    return tuple(float(v) for v in first(node, name)[1:3])
+
+
+def at_xyr(node):
+    vals = [float(v) for v in first(node, "at")[1:]]
+    return tuple(vals + [0.0] * (3 - len(vals)))
+
+
+def on(node, layer):
+    found = first(node, "layer")
+    return found is not None and found[1] == layer
+
+
+def width(node):
+    w = first(first(node, "stroke") or [], "width")
+    return float(w[1]) if w else 0.2
+
+
+def arc_from_three(sx, sy, mx, my, ex, ey):
+    """Center and signed sweep (degrees, clockwise on screen) of the arc start -> mid -> end."""
+    d = 2 * (sx * (my - ey) + mx * (ey - sy) + ex * (sy - my))
+    cx = ((sx**2 + sy**2) * (my - ey) + (mx**2 + my**2) * (ey - sy) + (ex**2 + ey**2) * (sy - my)) / d
+    cy = ((sx**2 + sy**2) * (ex - mx) + (mx**2 + my**2) * (sx - ex) + (ex**2 + ey**2) * (mx - sx)) / d
+    a0, am, ae = (math.atan2(y - cy, x - cx) for x, y in ((sx, sy), (mx, my), (ex, ey)))
+    to_mid, to_end = (am - a0) % math.tau, (ae - a0) % math.tau
+    sweep = to_end if to_mid < to_end else to_end - math.tau
+    return cx, cy, math.degrees(sweep)
+
+
 def parse(path):
-    s = path.read_text()
-    edges = [tuple(map(float, m)) for m in re.findall(
-        r"\(gr_line \(start ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(layer Edge\.Cuts\)", s)]
+    """Read the faceplate (KiCad 10 format)."""
+    root = read_sexp(path.read_text())
+    edges = [xy(g, "start") + xy(g, "end") for g in tagged(root, "gr_line") if on(g, "Edge.Cuts")]
     xs = [v for e in edges for v in (e[0], e[2])]
     ys = [v for e in edges for v in (e[1], e[3])]
     outline = (min(xs), min(ys), max(xs), max(ys))
 
     holes, polys = [], []
-    for block in re.findall(r"\n  \(module .*?\n  \)", s, re.S):
-        at = re.search(r"\n    \(at ([\d.]+) ([\d.]+)", block)
-        mx, my = float(at[1]), float(at[2])
-        drill = re.search(r"\(drill ([\d.]+)\)", block)
+    for fp in tagged(root, "footprint"):
+        mx, my, rot = at_xyr(fp)
+        drill = first(first(fp, "pad") or [], "drill")
         if drill:
             holes.append((mx, my, float(drill[1])))
         # The logo is a footprint made of filled silkscreen polygons.
-        for pts in re.findall(r"\(fp_poly \(pts(.*?)\) \(layer F\.SilkS\)", block, re.S):
-            polys.append([(mx + float(x), my + float(y)) for x, y in re.findall(r"\(xy ([\d.-]+) ([\d.-]+)\)", pts)])
+        a = math.radians(rot)
+        for poly in tagged(fp, "fp_poly"):
+            if on(poly, "F.SilkS"):
+                polys.append([(mx + float(q[1]) * math.cos(a) + float(q[2]) * math.sin(a),
+                               my - float(q[1]) * math.sin(a) + float(q[2]) * math.cos(a))
+                              for q in tagged(first(poly, "pts"), "xy")])
 
-    lines = [(tuple(map(float, m[:4])), float(m[4])) for m in re.findall(
-        r"\(gr_line \(start ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(layer F\.SilkS\) \(width ([\d.]+)\)", s)]
-    # KiCad 5 arcs: "start" is the center, "end" is where the arc begins, and the
-    # angle is the sweep in degrees, clockwise on screen.
-    arcs = [tuple(map(float, m)) for m in re.findall(
-        r"\(gr_arc \(start ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(angle ([\d.-]+)\) "
-        r"\(layer F\.SilkS\) \(width ([\d.]+)\)", s)]
-    circles = [tuple(map(float, m)) for m in re.findall(
-        r"\(gr_circle \(center ([\d.]+) ([\d.]+)\) \(end ([\d.]+) ([\d.]+)\) \(layer F\.SilkS\) \(width ([\d.]+)\)", s)]
+    lines = [(xy(g, "start") + xy(g, "end"), width(g)) for g in tagged(root, "gr_line") if on(g, "F.SilkS")]
+    arcs = []
+    for g in tagged(root, "gr_arc"):
+        if on(g, "F.SilkS"):
+            (sx, sy), m, e = xy(g, "start"), xy(g, "mid"), xy(g, "end")
+            cx, cy, sweep = arc_from_three(sx, sy, *m, *e)
+            arcs.append((cx, cy, sx, sy, sweep, width(g)))
+    circles = [xy(g, "center") + xy(g, "end") + (width(g),) for g in tagged(root, "gr_circle") if on(g, "F.SilkS")]
     texts = []
-    for m in re.finditer(r"\(gr_text (\S+) \(at ([\d.]+) ([\d.]+)(?: ([\d.]+))?\) \(layer F\.SilkS\)"
-                         r"(.*?)\n  \)", s, re.S):
-        size = re.search(r"\(size ([\d.]+)", m[5])
-        texts.append(dict(text=m[1], x=float(m[2]), y=float(m[3]), size=float(size[1]), italic="italic" in m[5]))
+    for t in tagged(root, "gr_text"):
+        if not on(t, "F.SilkS"):
+            continue
+        x, y, rot = at_xyr(t)
+        effects = first(t, "effects")
+        font = first(effects, "font")
+        justify = first(effects, "justify")
+        texts.append(dict(text=t[1], x=x, y=y, rot=rot, size=float(first(font, "size")[1]),
+                          italic=first(font, "italic") is not None,
+                          anchor={"left": "start", "right": "end"}.get(justify[1] if justify else "", "middle")))
     return outline, holes, dict(lines=lines, arcs=arcs, circles=circles, polys=polys, texts=texts)
 
 
@@ -95,8 +164,9 @@ def panel_body(outline, holes, silk):
                   f"stroke='{INK}' stroke-width='{w}'/>")
     for t in silk["texts"]:
         style = " font-style='italic'" if t["italic"] else ""
-        el.append(f"<text x='{t['x']}' y='{t['y']}' {FONT} font-size='{t['size'] * 1.15}'{style} "
-                  f"fill='{INK}' text-anchor='middle' dominant-baseline='central'>{t['text']}</text>")
+        turn = f" transform='rotate({-t['rot']} {t['x']} {t['y']})'" if t["rot"] else ""
+        el.append(f"<text x='{t['x']}' y='{t['y']}' {FONT} font-size='{t['size'] * 1.15}'{style}{turn} "
+                  f"fill='{INK}' text-anchor='{t['anchor']}' dominant-baseline='central'>{t['text']}</text>")
     for x, y, d in holes:
         if d == JACK:
             # Knurled jack nut with the socket opening.
@@ -146,24 +216,24 @@ def annotated(outline, holes, silk):
 
     chans = controls(holes)
     (kx, ky), (ix, iy), (ox, oy) = chans[0]
-    # Channel 1 is labelled in full. The knob's leader runs level through the gap
+    # Channel 1 is labeled in full. The knob's leader runs level through the gap
     # between the two jacks.
     body += label(ky - 10, "In 1", "input. Unplugged: +5 V", ix + 4, iy)
-    body += label(ky, "Knob 1", "right ×1 · top 0 · left ×−1", kx + KNOB_R, ky)
+    body += label(ky, "Knob 1", "right x1, top 0, left x-1", kx + KNOB_R, ky)
     body += label(ky + 10, "Out 1", "black ring = output", ox + 4, oy)
     # Channels 2 to 4 get one label each, on their knob.
     for n, ((kx, ky), _, _) in enumerate(chans[1:], start=2):
         body += label(ky, f"Channel {n}", "same as channel 1", x1 - 1, ky)
     pad = 4
     return svg((x0 - pad, y0 - pad, (x1 - x0) + 48 + pad, (y1 - y0) + 2 * pad), body,
-               "Attenuverter front panel")
+               "ST-03 Attenuverter front panel")
 
 
 def plain(outline, holes, silk):
     x0, y0, x1, y1 = outline
     pad = 1
     return svg((x0 - pad, y0 - pad, (x1 - x0) + 2 * pad, (y1 - y0) + 2 * pad), panel_body(outline, holes, silk),
-               "Attenuverter front panel")
+               "ST-03 Attenuverter front panel")
 
 
 def main():

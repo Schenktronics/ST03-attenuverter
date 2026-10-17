@@ -287,10 +287,10 @@ def jack_hole(jack):
 
 
 def fig_smd(outline, parts, back):
-    """Step 1: surface-mount parts on the back. Mark the parts that have a direction."""
+    """Surface-mount parts on the back (no longer in the guide: kits ship with them soldered). Mark the parts that have a direction."""
     h = outline[2] - outline[0]
     v = BoardView(outline, 0, 8, front=False)
-    body = view_title(0, 2.5, "Back (surface-mount side)", "Solder every part labelled here. Red marks the ends that matter.")
+    body = view_title(0, 2.5, "Back (surface-mount side)", "Solder every part labeled here. Red marks the ends that matter.")
     body += v.board() + back_silk(v, back, color=FAINT)
     for p in parts:
         if p in smd(parts):
@@ -306,14 +306,14 @@ def fig_smd(outline, parts, back):
     x, y = v.pt(pad_of(u1, "1")["x"], pad_of(u1, "1")["y"])
     body += leader(x, y, x, row1)
     body.append(text(x + 1, row1, "U1: the pin 1 dot goes on the red pad", 2.2, "bold", color=RED))
-    # Eleven diodes are too many for leader lines, so their red pads are labelled once.
-    body.append(text(0, row2, "D1–D11: the stripe (cathode) goes on the red pad", 2.2, "bold", color=RED))
+    # Eleven diodes are too many for leader lines, so their red pads are labeled once.
+    body.append(text(0, row2, "D1-D11: the stripe (cathode) goes on the red pad", 2.2, "bold", color=RED))
     body += end_labels(v, 8 + h + 2.2)
     return svg((-3, -3, 106, h + 25), body, "Step 1: surface-mount parts")
 
 
 def fig_header(outline, parts, back):
-    """Step 2: the power header goes on the back, with its notch matching the outline."""
+    """Step 1: the power header goes on the back, with its notch matching the outline."""
     h = outline[2] - outline[0]
     v = BoardView(outline, 0, 8, front=False)
     body = view_title(0, 2.5, "Back (surface-mount side)", "Fit J7 here and solder its pins on the front.")
@@ -329,19 +329,19 @@ def fig_header(outline, parts, back):
     row1, row2 = 8 + h + 7, 8 + h + 11
     p1 = v.pt(pad_of(j7, "1")["x"], pad_of(j7, "1")["y"])
     body += leader(p1[0], p1[1], p1[0], row1)
-    body.append(text(p1[0] + 1, row1, "Pin 1 (square pad) is −12 V: the red stripe goes this side", 2.2, "bold", color=RED))
+    body.append(text(p1[0] + 1, row1, "Pin 1 (square pad) is -12 V: the red stripe goes this side", 2.2, "bold", color=RED))
     nx, ny = v.pt(*j7["place"](-2.794, -5.08))
     body += leader(nx, ny, nx + 3, row2)
     body.append(text(nx + 4, row2, "The shroud's notch goes at the gap in the outline", 2.2, "bold", color=RED))
     body += end_labels(v, 8 + h + 2.2)
-    return svg((-3, -3, 106, h + 25), body, "Step 2: power header")
+    return svg((-3, -3, 106, h + 25), body, "Step 1: power header")
 
 
 def fig_parts(outline, parts):
     """Step 3: pots and jacks go in from the front, not soldered yet."""
     h = outline[2] - outline[0]
     v = BoardView(outline, 0, 8, front=True)
-    body = view_title(0, 2.5, "Front (pot and jack side)", "Fit RV1–RV4 and the eight jacks. Don't solder yet.")
+    body = view_title(0, 2.5, "Front (pot and jack side)", "Fit RV1-RV4 and the eight jacks. Don't solder yet.")
     body += v.board()
     for p in parts:
         if p in pots(parts) or p in jacks(parts):
@@ -418,7 +418,7 @@ def fig_faceplate(outline, parts):
     body.append(text(lx, nut_y + 1.1, "Jack nuts", 2.6, "bold"))
     body.append(text(lx, nut_y + 4.3, "finger-tight first", 2.2, color=GREY))
     body.append(text(lx, panel_y + 0.8, "Faceplate", 2.6, "bold"))
-    body.append(text(lx, panel_y + 4, "“Attenuverter” end over J1", 2.2, color=GREY))
+    body.append(text(lx, panel_y + 4, "\"Attenuverter\" end over J1", 2.2, color=GREY))
     body.append(text(lx, body_top + 3, "Pots and jacks", 2.6, "bold"))
     body.append(text(lx, body_top + 6.2, "not soldered yet", 2.2, color=GREY))
     body.append(text(lx, pcb_y + 0.8, "PCB", 2.6, "bold"))
@@ -467,7 +467,6 @@ def main():
     outline, parts, back = parse(PCB)
     OUT.mkdir(parents=True, exist_ok=True)
     figs = {
-        "assembly-1-smd.svg": fig_smd(outline, parts, back),
         "assembly-2-header.svg": fig_header(outline, parts, back),
         "assembly-3-parts.svg": fig_parts(outline, parts),
         "assembly-4-faceplate.svg": fig_faceplate(outline, parts),
