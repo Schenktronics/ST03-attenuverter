@@ -2,8 +2,6 @@
 
 The board in this kit comes with all the surface-mount parts already soldered by the board house and tested by me, so you only solder the through-hole parts: the power header, the jacks, and the pots. That's 54 solder joints and about 45-60 minutes.
 
-**Prefer to watch?** There's a video of the whole build: [Watch me build a surface mount attenuverter!](https://www.youtube.com/watch?v=QJxtZVHBpq0) It starts with the surface-mount parts, which your board already has, so skip ahead.
-
 <img src="images/outline-bare-parts.svg" alt="The faceplate and the bare PCB, before assembly" width="260">
 
 ## What you need

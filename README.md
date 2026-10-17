@@ -66,7 +66,4 @@ The Schenktronics name and logo are trademarks of Schenktronics LLC and are not 
 
 - Shop: <https://schenktronics.com/product/st-03/>
 - Docs page: <https://schenktronics.com/docs/st-03/>
-- Tindie: <https://www.tindie.com/products/schenktronics/attenuverter/>
-- ModularGrid: <https://modulargrid.net/e/schenktronics-attenuverter>
-- Build video: <https://www.youtube.com/watch?v=QJxtZVHBpq0>
 - Website: <https://schenktronics.com>
