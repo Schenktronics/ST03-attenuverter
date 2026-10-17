@@ -3,6 +3,8 @@
   "pcbVersion": "v1.1",
   "repo": "Schenktronics/ST03-attenuverter",
   "branch": "main",
+  "qrUrl": "https://schenktronics.com/docs/st-03/",
+  "officialUrl": "schenktronics.com/docs/st-03",
   "docsDir": "../docs",
   "outDir": "../docs/pdf",
   "documents": [
