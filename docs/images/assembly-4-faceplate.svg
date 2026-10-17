@@ -201,7 +201,7 @@
 <line x1='111.25' y1='27.00' x2='111.25' y2='32.20' stroke='#1a1a1a' stroke-width='0.3' marker-end='url(#arr)'/>
 <line x1='111.25' y1='35.80' x2='111.25' y2='45.70' stroke='#1a1a1a' stroke-width='0.3' marker-end='url(#arr)'/>
 <text x='133.50' y='25.10' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Jack nuts</text>
-<text x='133.50' y='28.30' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>finger-tight first</text>
+<text x='133.50' y='28.30' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>hand-tighten first</text>
 <text x='133.50' y='33.80' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Faceplate</text>
 <text x='133.50' y='37.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>"Attenuverter" end over J1</text>
 <text x='133.50' y='54.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Pots and jacks</text>
@@ -209,7 +209,7 @@
 <text x='133.50' y='60.80' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>PCB</text>
 <text x='133.50' y='64.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>surface-mount parts and J7 underneath</text>
 <text x='66.25' y='71.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#d9302c' text-anchor='middle' dominant-baseline='central'>Center the pot shafts in their holes,</text>
-<text x='66.25' y='74.20' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='middle' dominant-baseline='central'>then tighten the jack nuts</text>
+<text x='66.25' y='74.20' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='middle' dominant-baseline='central'>solder, then tighten the jack nuts</text>
 <text x='16.25' y='71.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Top (J1 end)</text>
 <text x='116.25' y='71.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='end' dominant-baseline='central'>Bottom (J9 end)</text>
 <text x='2.00' y='79.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Side view, not to scale vertically</text>
