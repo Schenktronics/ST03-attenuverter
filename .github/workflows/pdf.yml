@@ -7,7 +7,7 @@ on:
     paths:
       - "docs/*.md"
       - "docs/images/**"
-      - "docs/pdf/config.json"
+      - ".github/pdf-config.json"
       - ".github/workflows/pdf.yml"
   workflow_dispatch: # run by hand after updating schenktronics-docs-tools
 
@@ -26,3 +26,5 @@ jobs:
         with:
           fetch-depth: 0 # the "Updated" date comes from git history
       - uses: Schenktronics/schenktronics-docs-tools/pdf@v1
+        with:
+          config: .github/pdf-config.json

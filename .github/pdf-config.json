@@ -3,6 +3,8 @@
   "pcbVersion": "v1.1",
   "repo": "Schenktronics/ST03-attenuverter",
   "branch": "main",
+  "docsDir": "../docs",
+  "outDir": "../docs/pdf",
   "documents": [
     { "src": "manual.md", "out": "ST-03_Attenuverter_User_Manual.pdf", "title": "User Manual" },
     { "src": "assembly-guide.md", "out": "ST-03_Attenuverter_Assembly_Guide.pdf", "title": "Assembly Guide" }
