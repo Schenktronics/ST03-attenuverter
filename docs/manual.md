@@ -23,7 +23,7 @@ It's an active module, so it needs ±12 V from your case's power supply.
 | Controls | 4 x knobs with a printed zero mark (100 kΩ linear potentiometers) |
 | Range | x-1 (fully counterclockwise) to 0 (center) to x1 (fully clockwise) |
 | Unplugged inputs | +5 V, so the output is -5 V to +5 V |
-| Input impedance | About 34-53 kΩ, depending on the knob position: lowest fully counterclockwise (calculated) |
+| Input impedance | About 34-53 kΩ, depending on the knob position: lowest fully counterclockwise |
 | Output impedance | 1 kΩ |
 | Signals | Audio, CV, gates, and bipolar signals. DC-coupled. |
 | Output swing | About ±10 V, limited by the op-amp running on ±12 V |
