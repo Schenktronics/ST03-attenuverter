@@ -13,6 +13,6 @@ Qty,Reference,Description,Manufacturer,Part Number,Link
 8,"J1-J6, J8, J9","3.5mm mono switched jack, vertical, with nut (CUI MJ-3507 also works, with a ground wire from its sleeve lug to the square pad)",QingPu,WQP-PJ398SM or WQP518MA,http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html
 4,RV1-RV4,"Potentiometer, 100k linear, 9mm, bushingless, 6mm D shaft (20mm long) (or equivalent)",Bourns,PTV09A-4020F-B104,https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf
 4,,"Knob, fits 6mm D shaft (or equivalent)",Davies Molding,1221-J,
-1,,"Main PCB, 30x100mm, 2-layer, 1.6mm",Schenktronics,Attenuverter v1.0,
-1,,"Faceplate, 6HP, 1.6mm aluminium PCB",Schenktronics,Attenuverter Faceplate,
+1,,"Main PCB, 30x100mm, 2-layer, 1.6mm",Schenktronics,ST-03 Attenuverter v1.1,
+1,,"Faceplate, 6HP, 1.6mm aluminum PCB",Schenktronics,ST-03 Attenuverter Faceplate,
 1,,"Eurorack power cable, 10-pin to 16-pin",,,

@@ -1,10 +1,10 @@
 {
-  "product": "Attenuverter",
-  "pcbVersion": "v1.0",
+  "product": "ST-03 Attenuverter",
+  "pcbVersion": "v1.1",
   "repo": "Schenktronics/ST03-attenuverter",
-  "branch": "master",
+  "branch": "main",
   "documents": [
-    { "src": "manual.md", "out": "attenuverter-manual.pdf", "title": "User Manual" },
-    { "src": "assembly-guide.md", "out": "attenuverter-assembly-guide.pdf", "title": "Assembly Guide" }
+    { "src": "manual.md", "out": "ST-03_Attenuverter_User_Manual.pdf", "title": "User Manual" },
+    { "src": "assembly-guide.md", "out": "ST-03_Attenuverter_Assembly_Guide.pdf", "title": "Assembly Guide" }
   ]
 }
