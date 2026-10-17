@@ -22,8 +22,9 @@ Check your kit against this list before you start (full details in the [BOM](BOM
 
 ### Tools
 
-- Soldering iron (about 330-360 °C for leaded solder)
-- Solder
+- Soldering iron (about 330-360 °C for leaded solder, a little hotter for lead-free)
+- Solder: 0.8 mm, flux-core
+- Safety glasses, since solder can spit
 - Multimeter with continuity (beep), diode test, and DC voltage modes
 - Small pliers (optional, for squaring up the jacks)
 - Nut driver or wrench for the jack nuts (optional, but less likely to scratch the panel than pliers)
@@ -42,6 +43,9 @@ You only need the basics for this kit:
 - A good joint is shiny and shaped like a small cone around the pin. A dull, lumpy blob usually means the pad didn't get hot enough. Reheat it, use some flux, and add a touch more solder if necessary.
 - Keep the tip clean and lightly tinned. Wipe it on a damp sponge or brass wool between joints.
 - Remember that solder flows toward the heat.
+- Leaded solder (63/37 or 60/40 tin/lead) is easier to learn with than lead-free: it melts at a lower temperature and flows more easily. Lead-free works fine too, with a slightly hotter iron. Use whichever you prefer.
+- If you use leaded solder, wash your hands when you're done, and don't eat, drink, or smoke while you're soldering. Wipe down your work surface afterward, and keep solder away from kids.
+- Solder somewhere with some airflow, and keep your face to the side of the fumes, not right above them. The fumes primarily come from the flux, not the metals in the solder, but they can irritate your lungs.
 
 ## Step 1: Fit the power header
 
