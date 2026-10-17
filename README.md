@@ -12,7 +12,7 @@ A 6HP Eurorack quad attenuverter from **Schenktronics**. Each of its four channe
 ## Features
 
 - 6HP, 20 mm deep. 16 mA on +12 V and 9 mA on -12 V.
-- Four channels, each turning a signal down, off, or upside down
+- Four channels, each turning a signal down, off, or inverting it
 - Knobs with a printed zero mark at the top of their travel
 - Inputs normalled to +5 V: four manual offset voltages when nothing's plugged in
 - Reverse-power protection on both rails

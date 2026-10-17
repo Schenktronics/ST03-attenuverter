@@ -113,7 +113,7 @@ Push each knob onto its pot shaft. The flat on the shaft sets the knob's positio
 
 ### Without power
 
-Repeat the Step 2 short test on the header pins. Then plug a patch cable into each jack in turn, and check its sleeve against a ground pin (pins 3-8) on the header: every jack should beep.
+Repeat the Step 2 short test on the header pins. Then plug a patch cable into each jack, and check its sleeve against a ground pin (pins 3-8) on the header: every jack should beep.
 
 ### With power
 
@@ -127,7 +127,7 @@ With nothing plugged into the inputs, measure each output with the multimeter on
 | Pointer at the long mark (center) | About 0 V |
 | Fully counterclockwise | About -5 V |
 
-Then patch an LFO or another moving signal into each input in turn, and listen or watch as you turn the knob from one end to the other. The signal should shrink to nothing at the center, and grow again, inverted, on the other side.
+Then patch an LFO or another moving signal into each input, one at a time, and listen or watch as you turn the knob from one end to the other. The signal should shrink to nothing at the center, and grow again, inverted, on the other side.
 
 ## Step 8: Install
 

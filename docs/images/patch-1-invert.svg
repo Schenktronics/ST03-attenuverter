@@ -188,5 +188,5 @@
 <text x='186.00' y='55.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='3.4' font-weight='bold' fill='#1a1a1a' text-anchor='middle' dominant-baseline='central'>Filter</text>
 <text x='186.00' y='59.70' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.7' font-weight='normal' fill='#777' text-anchor='middle' dominant-baseline='central'>cutoff CV in</text>
 <text x='112.00' y='49.20' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='3.2' font-weight='bold' fill='#d9302c' text-anchor='end' dominant-baseline='central'>Knob 1 left</text>
-<text x='112.00' y='53.40' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.7' font-weight='normal' fill='#777' text-anchor='end' dominant-baseline='central'>upside-down envelope</text>
+<text x='112.00' y='53.40' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.7' font-weight='normal' fill='#777' text-anchor='end' dominant-baseline='central'>inverted envelope</text>
 </svg>

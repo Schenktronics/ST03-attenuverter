@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Attenuverter is a 6HP module with four identical channels. Each channel scales the signal at its input by an amount set by its knob, anywhere from full level, through zero, to full level upside down (inverted).
+The Attenuverter is a 6HP module with four identical channels. Each channel scales the signal at its input by an amount set by its knob, anywhere from full level, through zero, to full level inverted.
 
 Each input is normalled to +5 V. With nothing plugged into an input, its output is a steady voltage from -5 V to +5 V, set by the knob, so each channel doubles as a manual offset or CV source.
 
@@ -50,7 +50,7 @@ Each knob sets how much of the input reaches the output, and which way up:
 | Halfway between the center and fully counterclockwise | About a third of the input, inverted (x-0.36) |
 | Fully counterclockwise | The input, inverted (x-1) |
 
-"Inverted" means turned upside down: a rising envelope falls instead, and a +3 V CV becomes -3 V.
+"Inverted" means every voltage is negated: a +3 V CV becomes -3 V, and a rising envelope falls instead.
 
 The panel has a long mark at the top of each knob's travel, where the output is zero. Line the knob's pointer up with it to turn a channel off.
 
@@ -78,7 +78,7 @@ Each drawing shows the module sending the signal on the left and the modules rec
 
 <img src="images/patch-1-invert.svg" alt="An envelope patched into In 1, with Out 1 going to a filter's cutoff CV input and Knob 1 turned to the left" width="360">
 
-Turn Knob 1 left of center and the envelope comes out upside down: instead of opening the filter, each note closes it. Raise the filter's cutoff knob so the envelope has somewhere to sweep down from.
+Turn Knob 1 left of center and the envelope comes out inverted: instead of opening the filter, each note closes it. Raise the filter's cutoff knob so the envelope has somewhere to sweep down from.
 
 ### Set the depth of an LFO
 
