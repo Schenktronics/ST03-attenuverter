@@ -54,7 +54,7 @@ The `.github/` folder holds the automation that builds the PDFs. You can ignore 
 
 ## Sourcing your own parts
 
-The [BOM](docs/BOM.md) lists every part, including the surface-mount ones the kits ship with already soldered. The jack pads are oval so the board can also take panel-mount style jacks, which may be easier to source.
+The [BOM](docs/BOM.md) lists every part, including the surface-mount ones the kits ship with already soldered. The jack pads are oval so the board can also take panel-mount style jacks, which may be easier to source. The CUI MJ-3507 is one example: its sleeve is a solder lug rather than a pin, so each one needs a short wire from that lug to the jack's square pad.
 
 ## License
 

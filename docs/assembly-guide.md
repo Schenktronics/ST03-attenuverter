@@ -99,7 +99,7 @@ Turn the whole thing over and solder from the back of the PCB, between the surfa
 3. Solder the eight large mounting-lug pads of the pots. They connect to ground, so they take a little longer to heat. Hold the iron on until the solder flows into the hole.
 4. Snug the nuts down. Don't overtighten: it can strip the jack threads or damage the panel.
 
-> **Sourcing your own jacks?** The footprint also takes CUI MJ-3507 jacks (the ones in the Mouser parts list). Their tip and switch pins go into the board, but the sleeve is a solder lug on the jack, not a pin. Tack the tip pin instead of the square pad, then solder a short wire from each jack's sleeve lug to its square pad. Without the wire, the jack has no ground.
+> **Using panel-mount style jacks?** The oval pads also take jacks like the CUI MJ-3507. Their tip and switch pins go into the board, but the sleeve is a solder lug on the jack, not a pin. Tack the tip pin instead of the square pad, then solder a short wire from each jack's sleeve lug to its square pad. Without the wire, the jack has no ground.
 
 <img src="images/assembly-5-solder.svg" alt="Back of the PCB: one pad per pot and jack to tack first is filled red, and the other pads, including the pot lugs, are outlined in red" width="640">
 

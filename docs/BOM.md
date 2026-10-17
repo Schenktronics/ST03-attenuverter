@@ -26,7 +26,7 @@ Kits ship with every surface-mount part below already soldered by the board hous
 | Qty | Reference | Part | Manufacturer / Part No. | Notes |
 |----:|-----------|------|--------------------------|-------|
 | 1 | J7 | Shrouded pin header, 2 x 5, 2.54 mm, vertical | On Shore Technology 302-S101, or equivalent | Eurorack power connector. Fits on the back. |
-| 8 | J1-J6, J8, J9 | 3.5 mm mono switched jack, vertical PCB mount, with nut | QingPu WQP-PJ398SM or WQP518MA, or equivalent. Either one works. CUI MJ-3507 also works, with a ground wire. | [Datasheet / product page](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html). The inputs use the switched contact for the +5 V normal. The pads are oval so the board can also take panel-mount style jacks, which may be easier to source. The footprint also takes the CUI MJ-3507 ([datasheet](https://www.cuidevices.com/product/resource/mj-3507.pdf)), which is on Mouser: its tip and switch pins go into the board, and its sleeve lug needs a short wire to the jack's square ground pad. |
+| 8 | J1-J6, J8, J9 | 3.5 mm mono switched jack, vertical PCB mount, with nut | QingPu WQP-PJ398SM or WQP518MA, or equivalent. Either one works. | [Datasheet / product page](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html). The inputs use the switched contact for the +5 V normal. The pads are oval so the board can also take panel-mount style jacks such as the CUI MJ-3507 ([datasheet](https://www.cuidevices.com/product/resource/mj-3507.pdf)), which may be easier to source. Its sleeve is a solder lug rather than a pin, so it needs a short wire from the lug to the square pad. |
 | 4 | RV1-RV4 | Potentiometer, 100 kΩ linear, 9 mm, vertical PCB mount with board-lock lugs, 6 mm D shaft (20 mm long), bushingless | Bourns PTV09A-4020F-B104, or equivalent | [Datasheet (PTV09 series)](https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf). The panel's printed mark shows zero. No threaded bushing or nut: the pots are held by the PCB's two mounting lugs. An equivalent must fit the 9 mm footprint (3 pins in a row, 2 mounting lugs) and have a 6 mm shaft that fits the knob. |
 | 4 | | Knob, for 6 mm shaft | Davies Molding 1221-J, or equivalent | An equivalent must fit the pot's D shaft. |
 | 1 | | Main PCB, 30 x 100 mm, 2-layer, 1.6 mm FR4 | Schenktronics | |
@@ -38,7 +38,3 @@ Kits ship with every surface-mount part below already soldered by the board hous
 | Qty | Part | Notes |
 |----:|------|-------|
 | 2 | M3 rack screws | Supplied with most Eurorack cases. |
-
-## Ordering the parts
-
-There's a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=490ed0ce39) with the parts for building from bare PCBs. Mouser doesn't stock QingPu jacks, so the project uses CUI MJ-3507 jacks instead. They fit the board, but each one needs a ground wire: see the note in Step 5 of the [assembly guide](assembly-guide.md#step-5-solder-the-pots-and-jacks).
