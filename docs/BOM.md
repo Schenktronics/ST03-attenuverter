@@ -1,4 +1,4 @@
-# Bill of Materials: ST-03 Attenuverter v1.1
+# Bill of Materials: ST-03 Attenuverter v1.2
 
 A machine-readable copy is in [BOM.csv](BOM.csv). The original spreadsheet is [hardware/attenuverter/attenuverter BOM.xlsx](<../hardware/attenuverter/attenuverter BOM.xlsx>).
 
@@ -6,15 +6,17 @@ All the resistors, capacitors, diodes, fuses, and chips are surface-mount parts 
 
 Kits ship with every surface-mount part below already soldered by the board house and tested, so you only need these if you're making your own boards.
 
+v1.1 boards differ in two ways: U1 is a TL074CDR, and C10-C13 aren't fitted. Everything else is the same.
+
 ## Surface-mount parts (back of the board)
 
 | Qty | Reference | Part | Manufacturer / Part No. | Notes |
 |----:|-----------|------|--------------------------|-------|
-| 1 | U1 | Quad JFET op-amp, SOIC-14 | Texas Instruments TL074CDR (TI, Microchip, or Analog Devices only) | [Datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf) |
+| 1 | U1 | Quad JFET op-amp, SOIC-14 | Texas Instruments TL074HIDR (TI only) | [Datasheet](https://www.ti.com/lit/ds/symlink/tl074.pdf). It must have the H suffix. The H version swings closer to the supply rails and doesn't flip its output when a large negative input takes it past its input range. |
 | 1 | U2 | 5.0 V shunt voltage reference, SOT-23-3 | Texas Instruments LM4040D50IDBZR (TI, Microchip, or Analog Devices only) | [Datasheet](https://www.ti.com/lit/ds/symlink/lm4040.pdf). Cathode on pin 1, anode on pin 2. Sets the +5 V that unplugged inputs receive. |
 | 16 | R1, R2, R4, R5, R6, R7, R9, R10, R12, R13, R15, R16, R17, R18, R20, R21 | Resistor, 100 kΩ, 1%, 0805 | Yageo RC0805FR-07100KL, or equivalent | |
 | 13 | R3, R8, R11, R14, R19, R22-R29 | Resistor, 1 kΩ, 1%, 0805 | Yageo RC0805FR-071KL, or equivalent | R3, R8, R14 and R19 are the output resistors, one per channel. R11 feeds the 5 V reference. R22-R29 are part of the input protection. |
-| 4 | C1, C2, C3, C7 | Capacitor, 10 pF, 50 V, C0G/NP0, 0805 | Yageo CC0805JRNPO9BN100, or equivalent | |
+| 8 | C1, C2, C3, C7, C10-C13 | Capacitor, 10 pF, 50 V, C0G/NP0, 0805 | Yageo CC0805JRNPO9BN100, or equivalent | C1, C2, C3 and C7 are the feedback capacitors, one per channel. C10-C13 go from each op-amp's + input to ground. Both sets keep the op-amp stable. |
 | 3 | C4, C6, C9 | Capacitor, 100 nF, 25 V, X7R, 0805 | AVX 08053C104KAT2A, or equivalent | |
 | 2 | C5, C8 | Capacitor, 10 µF, 25 V, X5R, 0805 | Taiyo Yuden TMK212BBJ106KG-T, or equivalent | |
 | 2 | D1, D2 | Diode, 1 A, 300 V, SMA | ON Semiconductor MRA4003T3G, or equivalent | Reverse-power protection. The cathode (stripe) end matters. |

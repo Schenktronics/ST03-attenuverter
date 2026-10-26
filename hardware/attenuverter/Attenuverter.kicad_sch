@@ -4622,7 +4622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL074"
+		(property "Value" "TL074H"
 			(at 217.3732 102.743 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4738,7 @@
 				)
 			)
 		)
-		(property "Value" "TL074"
+		(property "Value" "TL074H"
 			(at 87.63 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Value" "TL074"
+		(property "Value" "TL074H"
 			(at 87.63 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,7 +7342,7 @@
 				)
 			)
 		)
-		(property "Value" "TL074"
+		(property "Value" "TL074H"
 			(at 87.63 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Value" "TL074"
+		(property "Value" "TL074H"
 			(at 87.63 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
