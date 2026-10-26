@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Attenuverter")
-		(date "2026-10-03")
-		(rev "1.1")
+		(date "2026-10-25")
+		(rev "1.2")
 		(company "Schenktronics")
 		(comment 4 "PCB-ST03-MAIN")
 	)
@@ -2678,6 +2678,12 @@
 		(uuid "18360554-7780-4ee1-a6de-8c272aa4ec09")
 	)
 	(junction
+		(at 77.47 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f2702f-6e33-4339-b4a3-8d80540bb958")
+	)
+	(junction
 		(at 63.5 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2730,6 +2736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8552f9-ae6d-4c4a-8516-943d5f22753d")
+	)
+	(junction
+		(at 77.47 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49b8fc1d-5464-4edc-a7aa-ea711562b984")
 	)
 	(junction
 		(at 77.47 168.91)
@@ -2858,6 +2870,12 @@
 		(uuid "ac5da950-d78b-4340-9d2a-8b164870423d")
 	)
 	(junction
+		(at 77.47 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b25bff40-13b5-4188-ad26-7f85512d6d78")
+	)
+	(junction
 		(at 241.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2880,6 +2898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcf7c567-1c3b-43ee-bef4-d0f2c4593e1f")
+	)
+	(junction
+		(at 77.47 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befeaea4-985a-4938-807e-d7c35681e8d7")
 	)
 	(junction
 		(at 45.72 115.57)
@@ -11789,6 +11813,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 77.47 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73a5bc25-ebe0-47e1-9d33-c69f7dee4fd6")
+		(property "Reference" "C13"
+			(at 82.55 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 82.55 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8cd0f96-c79b-4f94-b155-28e308bae3f6")
+		)
+		(pin "2"
+			(uuid "2a192653-c958-449c-a4d2-40488231a2c2")
+		)
+		(instances
+			(project "Attenuverter"
+				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7945a384-c824-4273-814b-67d8f369458a")
+		(property "Reference" "C10"
+			(at 82.55 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 82.55 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20f8b152-faeb-40b0-b5a5-41109e4da57e")
+		)
+		(pin "2"
+			(uuid "88df0808-1e96-4bc1-b4fb-c0931a7b7f73")
+		)
+		(instances
+			(project "Attenuverter"
+				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 38.1 153.67 90)
 		(unit 1)
@@ -11937,6 +12117,84 @@
 			(project "Attenuverter"
 				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8eeaaa9c-5f7b-4899-a11a-3ad665dc2fba")
+		(property "Reference" "C11"
+			(at 82.55 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 82.55 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "566b0f67-6fd8-4148-a177-0b5eb2ffb727")
+		)
+		(pin "2"
+			(uuid "2fbafe7d-1aee-4311-996c-a16352bae071")
+		)
+		(instances
+			(project "Attenuverter"
+				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12797,6 +13055,84 @@
 			(project "Attenuverter"
 				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef87d1e9-4b42-4e3e-8b22-b75c583b73bb")
+		(property "Reference" "C12"
+			(at 82.55 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 82.55 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b2ac2ca-383b-4710-8f6a-f4a08c41ff7c")
+		)
+		(pin "2"
+			(uuid "71e05619-2a4e-42ca-9ba4-cd5a0790a8d3")
+		)
+		(instances
+			(project "Attenuverter"
+				(path "/5a2b1226-1e8a-483c-92ad-371deef9f60d"
+					(reference "C12")
 					(unit 1)
 				)
 			)
