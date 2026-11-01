@@ -67,6 +67,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "#808080D4")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
